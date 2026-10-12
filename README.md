@@ -4,8 +4,8 @@
 
 ## Macで開く（追加ソフト不要）
 
-1. ダウンロードした `pokemon-champions-v7-foundation.zip` をダブルクリックします。
-2. 展開された `pokemon-champions-v7-foundation` フォルダを開きます。
+1. GitHubの `v7-foundation` ブランチで「Code」→「Download ZIP」を選び、Macの「ダウンロード」フォルダでZIPをダブルクリックします。
+2. 展開されたフォルダ（GitHubから取得した場合は `pokemon-champions-tool-v7-foundation`）を開きます。
 3. その中の `index.html` を右クリックして「このアプリケーションで開く」→「Safari」または「Google Chrome」を選びます。
 4. 上の5つのボタンから機能を選べます。
 
@@ -41,7 +41,7 @@
 
 Git（変更を保存する仕組み）でも、原本の保管と構成整理を別々に保存しました。保存地点には `pokemon-v7-original` と `pokemon-v7-foundation` という名前を付けています。元のリポジトリのHTMLもGitの履歴と `originals/repository-index-before-v7.html` に残しています。
 
-Gitの履歴はクラウドの作業場所に保存済みです。GitHubへの送信はしていません。配布ZIPには原本・更新履歴・説明書と、Gitの履歴を戻せる `history.bundle` も含めています。Gitの設定ファイルは含めません。Macで試すだけならGitの設定もインストールも不要です。GitHubに反映したいときや前の版に戻したいときは、そのまま依頼してください。
+Gitの履歴はクラウドとGitHubに保存します。GitHubでは元の `main` と分けて、`v7-foundation` ブランチに保存します。GitHubから取得するZIPには原本・更新履歴・説明書が入っています。Gitの履歴そのものはZIPに含まれず、GitHubで確認できます。Macで試すだけならGitの設定もインストールも不要です。前の版に戻したいときは、そのまま依頼してください。
 
 ## 動作の確認
 
@@ -60,3 +60,7 @@ node --test tests/core.test.js
 - 技検索で `しゃどーぼーる` を入力し候補を選ぶ → 分類・威力・効果が表示される。
 
 入力欄の下に候補が出たら、候補を選ぶか、見出しをクリックして閉じてからボタンを押してください。
+
+## GitHubから受け取る
+
+[整備済みのv7を開く](https://github.com/miyagawa0330/pokemon-champions-tool/tree/v7-foundation) → ファイル一覧の上にある「Code」→「Download ZIP」。受け取りにはこの手順を使ってください。初回に作成したZIPはクラウド内部の保存場所にあり、チャットのリンクではMacへ渡せませんでした。GitHubでアプリのファイルを保存することと、アプリを公開サイトとして配信することは別です。

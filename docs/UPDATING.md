@@ -40,6 +40,6 @@ git commit -m "データ更新: 更新内容を書く"
 
 元のv7の保存地点は `pokemon-v7-original`、整理済みの保存地点は `pokemon-v7-foundation` です。復元するときは `git reset --hard` などで現在の作業を消さず、戻したい版と手元の変更を確認してから行います。初心者の方は「前の状態に戻して」と依頼するだけで構いません。
 
-## ZIPに含まれるGit履歴
+## Git履歴の保管場所
 
-`history.bundle` は今回の変更までの保存履歴をまとめた復元用ファイルです。通常は開く必要はありません。こちらに「この履歴から復元して」と依頼してください。Gitを使える環境では `git clone history.bundle pokemon-champions-tool` で履歴付きの作業場所を作れます。クラウドの起動手順も現在の5機能版に更新してドラフト保存していますが、新しいクラウドタスクへの復元を確認したという意味ではありません。
+GitHubに保存した後は、GitHub上で変更履歴と保存地点のタグを確認できます。GitHubの「Download ZIP」にはGitの履歴自体は含まれません。履歴付きで受け取る場合は `git clone --branch v7-foundation https://github.com/miyagawa0330/pokemon-champions-tool.git` を使いますが、Macでアプリを試すだけなら不要です。初回にクラウド内で作成した `history.bundle` は構成整理までの保存履歴をまとめた復元用ファイルです。クラウドの起動手順も現在の5機能版に更新してドラフト保存していますが、新しいクラウドタスクへの復元を確認したという意味ではありません。

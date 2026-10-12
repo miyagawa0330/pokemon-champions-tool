@@ -26,4 +26,4 @@ MacのSafariでの実行は未確認です。クラウドのChromiumはローカ
 - 原本保管：`9772135`、名前 `pokemon-v7-original`。
 - 構成整理：名前 `pokemon-v7-foundation`。`git log --oneline` で保存番号を確認できます。
 
-Gitの履歴はクラウド内のローカル保存です。GitHubへの送信や、別のクラウドタスクへの復元は未検証です。ZIPには原本・整理後のアプリ・説明書・検証ファイルを含み、Gitの復元用 `history.bundle` も含めます。Gitの設定ファイルは含めません。
+構成整理時点ではGitの履歴はクラウド内に保存しました。その後、ユーザーの承認に基づきGitHubの `v7-foundation` ブランチへの保存を進めています。別のクラウドタスクへの復元は未検証です。GitHubの「Download ZIP」には原本・整理後のアプリ・説明書・検証ファイルを含み、Gitの履歴はGitHubに残ります。初回にクラウド内で作成したZIPには、別途復元用の `history.bundle` も含めています。
