@@ -15,7 +15,7 @@
       <div class="title-wrap">
         <h1>ポケモンチャンピオンズ検索ツール</h1>
       </div>
-      <div class="badge">313体 / 技466種</div>
+      <div class="badge">データ読み込み中</div>
     </header>
 
     <nav class="tabs" aria-label="機能選択">
@@ -25,6 +25,11 @@
       <button class="tab-btn" data-tab="damage">4 ダメージ計算</button>
       <button class="tab-btn" data-tab="moveSearch">5 技検索</button>
     </nav>
+
+    <aside class="card data-notice" id="dataNotice" aria-label="データの確認状況">
+      <strong>現レギュレーションと適用期間：未確認</strong>
+      <p>現環境への対応確認は未完了です。利用できるポケモンを断定する一覧ではありません。</p>
+    </aside>
 
     <section id="search" class="panel active">
       <div class="card">
@@ -71,7 +76,14 @@
 
     <section id="damage" class="panel">
       <div class="card">
-        <h2>ダメージ計算</h2>
+        <h2>ダメージ計算（簡易・目安）</h2>
+        <p class="calculation-notice">特性・道具・天候・能力ランクなどは反映しません。実戦の正確なダメージや勝敗の確率ではありません。</p>
+        <details class="calculation-details" id="calculationDetails">
+          <summary>計算する条件・計算しない条件</summary>
+          <p>計算するもの：固定条件の能力値、登録威力、物理／特殊、通常のタイプ一致1.5倍、タイプ相性、85〜100の16通りの乱数。アクロバットは道具なしで威力2倍、ボディプレス・イカサマ・サイコショックは参照する能力を切り替えます。</p>
+          <p>計算しないもの：実際に使う特性（てきおうりょくも含む）、道具、性格、天候、フィールド、能力ランク、急所、やけど、壁、ダブルバトルの複数対象補正、タイプ・威力・能力が変わる特殊効果など。個別の効果説明は計算には使いません。</p>
+          <p>変化技、威力が未確認の技、資料で確認した未対応の変動威力・連続攻撃・固定ダメージ・反射・一撃必殺技は計算しません。丸め処理を含め、ゲームの全仕様を再現した計算ではありません。</p>
+        </details>
         <div class="grid three">
           <div>
             <label for="attackerName">攻撃側ポケモン</label>
@@ -103,13 +115,15 @@
 
     <datalist id="pokemonNames"></datalist>
     <datalist id="moveNames"></datalist>
-    <p class="footer-note">計算条件: Lv.50 / 個体値31相当 / 参照する能力は能力ポイント32相当 / 性格補正なし / 道具補正なし。技検索は技名のみで絞り込みます。データ: レギュレーションM-B対応、2026-07-07確認。</p>
+    <p class="footer-note">データ確認状況を読み込んでいます。</p>
   </div>
 
   <script src="data/pokemon.js"></script>
   <script src="data/moves.js"></script>
   <script src="data/types.js"></script>
   <script src="data/settings.js"></script>
+  <script src="data/review.js"></script>
+  <script src="js/verification.js"></script>
   <script src="js/search.js"></script>
   <script src="js/calculations.js"></script>
   <script src="js/app.js"></script>

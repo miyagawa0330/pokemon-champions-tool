@@ -6,7 +6,7 @@ const read = file => fs.readFileSync(path.join(root, file), 'utf8');
 const plain = value => JSON.parse(JSON.stringify(value));
 function loadApp() {
   const context = vm.createContext({ window: {} });
-  for (const file of ['data/pokemon.js', 'data/moves.js', 'data/types.js', 'data/settings.js', 'js/search.js', 'js/calculations.js']) {
+  for (const file of ['data/pokemon.js', 'data/moves.js', 'data/types.js', 'data/settings.js', 'data/review.js', 'js/verification.js', 'js/search.js', 'js/calculations.js']) {
     vm.runInContext(read(file), context, { filename: file });
   }
   return { data: context.window.PokemonAppData, api: context.window.PokemonTool };

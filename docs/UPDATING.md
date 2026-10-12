@@ -31,7 +31,7 @@
 
 ```sh
 git status
-node --test tests/core.test.js
+node --test tests/core.test.js tests/update.test.js
 git diff
 # 意図したファイルだけを指定して保存する例
 git add data/pokemon.js data/settings.js CHANGELOG.md
@@ -43,3 +43,12 @@ git commit -m "データ更新: 更新内容を書く"
 ## Git履歴の保管場所
 
 GitHubに保存した後は、GitHub上で変更履歴と保存地点のタグを確認できます。GitHubの「Download ZIP」にはGitの履歴自体は含まれません。履歴付きで受け取る場合は `git clone --branch v7-foundation https://github.com/miyagawa0330/pokemon-champions-tool.git` を使いますが、Macでアプリを試すだけなら不要です。初回にクラウド内で作成した `history.bundle` は構成整理までの保存履歴をまとめた復元用ファイルです。クラウドの起動手順も現在の5機能版に更新してドラフト保存していますが、新しいクラウドタスクへの復元を確認したという意味ではありません。
+
+## 現環境に対応させる際の追加注意
+
+- `data/review.js` に公式確認の状況、出典、適用期間、対象一覧を記録します。二次資料で数値が一致しても、現レギュレーションで利用できる根拠とは区別します。
+- 公式確認が完了するまで `current_regulation.status` を `verified` にせず、期間や対象一覧を推測で入力しません。公式対象一覧が取得できた後、告知本文の日時・時差・シングル/ダブルの対象を確認してから反映します。
+- 現在の上部注意書きは確認保留の状況を明示しています。公式確認後は、確定したレギュレーション・期間と利用可否がわかる内容へ更新し、表示の検証も実施します。
+- 日本語の特性名や威力が確認できない場合は「未確認」または `null` とし、必要な数値がない計算は止めます。資料の対象作品の違いも確認します。
+- 技の変動威力・連続攻撃など未対応の条件は `data/review.js` に理由を記録し、数値を固定して正確な結果として表示しません。
+- 原本と、未対応条件を拒否する検証は保持します。データ変更時には `tests/update.test.js` の件数や証拠データも、新しい根拠に合わせて更新します。

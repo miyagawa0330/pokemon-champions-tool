@@ -1,0 +1,4383 @@
+{
+  "pokemon": {
+    "メガライチュウX": {
+      "id": "raichumegax",
+      "name": "メガライチュウX",
+      "pokemon": {
+        "num": 26,
+        "name": "Raichu-Mega-X",
+        "baseSpecies": "Raichu",
+        "forme": "Mega-X",
+        "types": [
+          "Electric"
+        ],
+        "baseStats": {
+          "hp": 60,
+          "atk": 135,
+          "def": 95,
+          "spa": 90,
+          "spd": 95,
+          "spe": 110
+        },
+        "abilities": {
+          "0": "Electric Surge"
+        },
+        "heightm": 1.2,
+        "weightkg": 38,
+        "color": "Yellow",
+        "eggGroups": [
+          "Field",
+          "Fairy"
+        ],
+        "requiredItem": "Raichunite X",
+        "gen": 9
+      },
+      "pokeapi_id": "10304",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "エレキメイカー"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 60,
+          "2": 135,
+          "3": 95,
+          "4": 90,
+          "5": 95,
+          "6": 110
+        },
+        "types": [
+          "Electric"
+        ],
+        "abilities": {
+          "0": "Electric Surge"
+        }
+      }
+    },
+    "メガライチュウY": {
+      "id": "raichumegay",
+      "name": "メガライチュウY",
+      "pokemon": {
+        "num": 26,
+        "name": "Raichu-Mega-Y",
+        "baseSpecies": "Raichu",
+        "forme": "Mega-Y",
+        "types": [
+          "Electric"
+        ],
+        "baseStats": {
+          "hp": 60,
+          "atk": 100,
+          "def": 55,
+          "spa": 160,
+          "spd": 80,
+          "spe": 130
+        },
+        "abilities": {
+          "0": "No Guard"
+        },
+        "heightm": 1,
+        "weightkg": 26,
+        "color": "Yellow",
+        "eggGroups": [
+          "Field",
+          "Fairy"
+        ],
+        "requiredItem": "Raichunite Y",
+        "gen": 9
+      },
+      "pokeapi_id": "10305",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "ノーガード"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 60,
+          "2": 100,
+          "3": 55,
+          "4": 160,
+          "5": 80,
+          "6": 130
+        },
+        "types": [
+          "Electric"
+        ],
+        "abilities": {
+          "0": "No Guard"
+        }
+      }
+    },
+    "メガムクホーク": {
+      "id": "staraptormega",
+      "name": "メガムクホーク",
+      "pokemon": {
+        "num": 398,
+        "name": "Staraptor-Mega",
+        "baseSpecies": "Staraptor",
+        "forme": "Mega",
+        "types": [
+          "Fighting",
+          "Flying"
+        ],
+        "baseStats": {
+          "hp": 85,
+          "atk": 140,
+          "def": 100,
+          "spa": 60,
+          "spd": 90,
+          "spe": 110
+        },
+        "abilities": {
+          "0": "Contrary"
+        },
+        "heightm": 1.9,
+        "weightkg": 50,
+        "color": "Gray",
+        "eggGroups": [
+          "Flying"
+        ],
+        "requiredItem": "Staraptite",
+        "gen": 9
+      },
+      "pokeapi_id": "10308",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "あまのじゃく"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 85,
+          "2": 140,
+          "3": 100,
+          "4": 60,
+          "5": 90,
+          "6": 110
+        },
+        "types": [
+          "Fighting",
+          "Flying"
+        ],
+        "abilities": {
+          "0": "Contrary"
+        }
+      }
+    },
+    "メガペンドラー": {
+      "id": "scolipedemega",
+      "name": "メガペンドラー",
+      "pokemon": {
+        "num": 545,
+        "name": "Scolipede-Mega",
+        "baseSpecies": "Scolipede",
+        "forme": "Mega",
+        "types": [
+          "Bug",
+          "Poison"
+        ],
+        "baseStats": {
+          "hp": 60,
+          "atk": 140,
+          "def": 149,
+          "spa": 75,
+          "spd": 99,
+          "spe": 62
+        },
+        "abilities": {
+          "0": "Shell Armor"
+        },
+        "heightm": 3.2,
+        "weightkg": 230.5,
+        "color": "Red",
+        "eggGroups": [
+          "Bug"
+        ],
+        "requiredItem": "Scolipite",
+        "gen": 9
+      },
+      "pokeapi_id": "10288",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "シェルアーマー"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 60,
+          "2": 140,
+          "3": 149,
+          "4": 75,
+          "5": 99,
+          "6": 62
+        },
+        "types": [
+          "Bug",
+          "Poison"
+        ],
+        "abilities": {
+          "0": "Shell Armor"
+        }
+      }
+    },
+    "メガズルズキン": {
+      "id": "scraftymega",
+      "name": "メガズルズキン",
+      "pokemon": {
+        "num": 560,
+        "name": "Scrafty-Mega",
+        "baseSpecies": "Scrafty",
+        "forme": "Mega",
+        "types": [
+          "Dark",
+          "Fighting"
+        ],
+        "baseStats": {
+          "hp": 65,
+          "atk": 130,
+          "def": 135,
+          "spa": 55,
+          "spd": 135,
+          "spe": 68
+        },
+        "abilities": {
+          "0": "Intimidate"
+        },
+        "heightm": 1.1,
+        "weightkg": 31,
+        "color": "Red",
+        "eggGroups": [
+          "Field",
+          "Dragon"
+        ],
+        "requiredItem": "Scraftinite",
+        "gen": 9
+      },
+      "pokeapi_id": "10289",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "いかく"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 65,
+          "2": 130,
+          "3": 135,
+          "4": 55,
+          "5": 135,
+          "6": 68
+        },
+        "types": [
+          "Dark",
+          "Fighting"
+        ],
+        "abilities": {
+          "0": "Intimidate"
+        }
+      }
+    },
+    "メガカラマネロ": {
+      "id": "malamarmega",
+      "name": "メガカラマネロ",
+      "pokemon": {
+        "num": 687,
+        "name": "Malamar-Mega",
+        "baseSpecies": "Malamar",
+        "forme": "Mega",
+        "types": [
+          "Dark",
+          "Psychic"
+        ],
+        "baseStats": {
+          "hp": 86,
+          "atk": 102,
+          "def": 88,
+          "spa": 98,
+          "spd": 120,
+          "spe": 88
+        },
+        "abilities": {
+          "0": "Contrary"
+        },
+        "heightm": 2.9,
+        "weightkg": 69.8,
+        "color": "Blue",
+        "eggGroups": [
+          "Water 1",
+          "Water 2"
+        ],
+        "requiredItem": "Malamarite",
+        "gen": 9
+      },
+      "pokeapi_id": "10297",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "あまのじゃく"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 86,
+          "2": 102,
+          "3": 88,
+          "4": 98,
+          "5": 120,
+          "6": 88
+        },
+        "types": [
+          "Dark",
+          "Psychic"
+        ],
+        "abilities": {
+          "0": "Contrary"
+        }
+      }
+    },
+    "メガガメノデス": {
+      "id": "barbaraclemega",
+      "name": "メガガメノデス",
+      "pokemon": {
+        "num": 689,
+        "name": "Barbaracle-Mega",
+        "baseSpecies": "Barbaracle",
+        "forme": "Mega",
+        "types": [
+          "Rock",
+          "Fighting"
+        ],
+        "baseStats": {
+          "hp": 72,
+          "atk": 140,
+          "def": 130,
+          "spa": 64,
+          "spd": 106,
+          "spe": 88
+        },
+        "abilities": {
+          "0": "Tough Claws"
+        },
+        "heightm": 2.2,
+        "weightkg": 100,
+        "color": "Brown",
+        "eggGroups": [
+          "Water 3"
+        ],
+        "requiredItem": "Barbaracite",
+        "gen": 9
+      },
+      "pokeapi_id": "10298",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "かたいツメ"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 72,
+          "2": 140,
+          "3": 130,
+          "4": 64,
+          "5": 106,
+          "6": 88
+        },
+        "types": [
+          "Rock",
+          "Fighting"
+        ],
+        "abilities": {
+          "0": "Tough Claws"
+        }
+      }
+    },
+    "メガドラミドロ": {
+      "id": "dragalgemega",
+      "name": "メガドラミドロ",
+      "pokemon": {
+        "num": 691,
+        "name": "Dragalge-Mega",
+        "baseSpecies": "Dragalge",
+        "forme": "Mega",
+        "types": [
+          "Poison",
+          "Dragon"
+        ],
+        "baseStats": {
+          "hp": 65,
+          "atk": 85,
+          "def": 105,
+          "spa": 132,
+          "spd": 163,
+          "spe": 44
+        },
+        "abilities": {
+          "0": "Regenerator"
+        },
+        "heightm": 2.1,
+        "weightkg": 100.3,
+        "color": "Brown",
+        "eggGroups": [
+          "Water 1",
+          "Dragon"
+        ],
+        "requiredItem": "Dragalgite",
+        "gen": 9
+      },
+      "pokeapi_id": "10299",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "さいせいりょく"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 65,
+          "2": 85,
+          "3": 105,
+          "4": 132,
+          "5": 163,
+          "6": 44
+        },
+        "types": [
+          "Poison",
+          "Dragon"
+        ],
+        "abilities": {
+          "0": "Regenerator"
+        }
+      }
+    },
+    "メガタイレーツ": {
+      "id": "falinksmega",
+      "name": "メガタイレーツ",
+      "pokemon": {
+        "num": 870,
+        "name": "Falinks-Mega",
+        "baseSpecies": "Falinks",
+        "forme": "Mega",
+        "types": [
+          "Fighting"
+        ],
+        "gender": "N",
+        "baseStats": {
+          "hp": 65,
+          "atk": 135,
+          "def": 135,
+          "spa": 70,
+          "spd": 65,
+          "spe": 100
+        },
+        "abilities": {
+          "0": "Defiant"
+        },
+        "heightm": 1.6,
+        "weightkg": 99,
+        "color": "Yellow",
+        "eggGroups": [
+          "Fairy",
+          "Mineral"
+        ],
+        "requiredItem": "Falinksite",
+        "gen": 9
+      },
+      "pokeapi_id": "10303",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "まけんき"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 65,
+          "2": 135,
+          "3": 135,
+          "4": 70,
+          "5": 65,
+          "6": 100
+        },
+        "types": [
+          "Fighting"
+        ],
+        "abilities": {
+          "0": "Defiant"
+        }
+      }
+    },
+    "プクリン": {
+      "id": "wigglytuff",
+      "name": "プクリン",
+      "pokemon": {
+        "num": 40,
+        "name": "Wigglytuff",
+        "types": [
+          "Normal",
+          "Fairy"
+        ],
+        "genderRatio": {
+          "M": 0.25,
+          "F": 0.75
+        },
+        "baseStats": {
+          "hp": 140,
+          "atk": 70,
+          "def": 45,
+          "spa": 85,
+          "spd": 50,
+          "spe": 45
+        },
+        "abilities": {
+          "0": "Cute Charm",
+          "1": "Competitive",
+          "H": "Frisk"
+        },
+        "heightm": 1,
+        "weightkg": 12,
+        "color": "Pink",
+        "prevo": "Jigglypuff",
+        "evoType": "useItem",
+        "evoItem": "Moon Stone",
+        "eggGroups": [
+          "Fairy"
+        ]
+      },
+      "pokeapi_id": "40",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "メロメロボディ",
+        "1": "かちき",
+        "H": "おみとおし"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 140,
+          "2": 70,
+          "3": 45,
+          "4": 85,
+          "5": 50,
+          "6": 45
+        },
+        "types": [
+          "Normal",
+          "Fairy"
+        ],
+        "abilities": {
+          "0": "Cute Charm",
+          "1": "Competitive",
+          "H": "Frisk"
+        }
+      }
+    },
+    "ペルシアン": {
+      "id": "persian",
+      "name": "ペルシアン",
+      "pokemon": {
+        "num": 53,
+        "name": "Persian",
+        "types": [
+          "Normal"
+        ],
+        "baseStats": {
+          "hp": 65,
+          "atk": 70,
+          "def": 60,
+          "spa": 65,
+          "spd": 65,
+          "spe": 115
+        },
+        "abilities": {
+          "0": "Limber",
+          "1": "Technician",
+          "H": "Unnerve"
+        },
+        "heightm": 1,
+        "weightkg": 32,
+        "color": "Yellow",
+        "prevo": "Meowth",
+        "evoLevel": 28,
+        "eggGroups": [
+          "Field"
+        ],
+        "otherFormes": [
+          "Persian-Alola"
+        ],
+        "formeOrder": [
+          "Persian",
+          "Persian-Alola"
+        ]
+      },
+      "pokeapi_id": "53",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "じゅうなん",
+        "1": "テクニシャン",
+        "H": "きんちょうかん"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 65,
+          "2": 70,
+          "3": 60,
+          "4": 65,
+          "5": 65,
+          "6": 115
+        },
+        "types": [
+          "Normal"
+        ],
+        "abilities": {
+          "0": "Limber",
+          "1": "Technician",
+          "H": "Unnerve"
+        }
+      }
+    },
+    "ペルシアン (アローラのすがた)": {
+      "id": "persianalola",
+      "name": "ペルシアン (アローラのすがた)",
+      "pokemon": {
+        "num": 53,
+        "name": "Persian-Alola",
+        "baseSpecies": "Persian",
+        "forme": "Alola",
+        "types": [
+          "Dark"
+        ],
+        "baseStats": {
+          "hp": 65,
+          "atk": 60,
+          "def": 60,
+          "spa": 75,
+          "spd": 65,
+          "spe": 115
+        },
+        "abilities": {
+          "0": "Fur Coat",
+          "1": "Technician",
+          "H": "Rattled"
+        },
+        "heightm": 1.1,
+        "weightkg": 33,
+        "color": "Blue",
+        "prevo": "Meowth-Alola",
+        "evoType": "levelFriendship",
+        "eggGroups": [
+          "Field"
+        ]
+      },
+      "pokeapi_id": "10108",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "ファーコート",
+        "1": "テクニシャン",
+        "H": "びびり"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 65,
+          "2": 60,
+          "3": 60,
+          "4": 75,
+          "5": 65,
+          "6": 115
+        },
+        "types": [
+          "Dark"
+        ],
+        "abilities": {
+          "0": "Fur Coat",
+          "1": "Technician",
+          "H": "Rattled"
+        }
+      }
+    },
+    "カモネギ": {
+      "id": "farfetchd",
+      "name": "カモネギ",
+      "pokemon": {
+        "num": 83,
+        "name": "Farfetch’d",
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "baseStats": {
+          "hp": 52,
+          "atk": 90,
+          "def": 55,
+          "spa": 58,
+          "spd": 62,
+          "spe": 60
+        },
+        "abilities": {
+          "0": "Keen Eye",
+          "1": "Inner Focus",
+          "H": "Defiant"
+        },
+        "heightm": 0.8,
+        "weightkg": 15,
+        "color": "Brown",
+        "eggGroups": [
+          "Flying",
+          "Field"
+        ],
+        "otherFormes": [
+          "Farfetch’d-Galar"
+        ],
+        "formeOrder": [
+          "Farfetch’d",
+          "Farfetch’d-Galar"
+        ]
+      },
+      "pokeapi_id": "83",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "するどいめ",
+        "1": "せいしんりょく",
+        "H": "まけんき"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 52,
+          "2": 90,
+          "3": 55,
+          "4": 58,
+          "5": 62,
+          "6": 60
+        },
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "abilities": {
+          "0": "Keen Eye",
+          "1": "Inner Focus",
+          "H": "Defiant"
+        }
+      }
+    },
+    "バリヤード": {
+      "id": "mrmime",
+      "name": "バリヤード",
+      "pokemon": {
+        "num": 122,
+        "name": "Mr. Mime",
+        "types": [
+          "Psychic",
+          "Fairy"
+        ],
+        "baseStats": {
+          "hp": 40,
+          "atk": 45,
+          "def": 65,
+          "spa": 100,
+          "spd": 120,
+          "spe": 90
+        },
+        "abilities": {
+          "0": "Soundproof",
+          "1": "Filter",
+          "H": "Technician"
+        },
+        "heightm": 1.3,
+        "weightkg": 54.5,
+        "color": "Pink",
+        "prevo": "Mime Jr.",
+        "evoType": "levelMove",
+        "evoMove": "Mimic",
+        "eggGroups": [
+          "Human-Like"
+        ],
+        "canHatch": true,
+        "otherFormes": [
+          "Mr. Mime-Galar"
+        ],
+        "formeOrder": [
+          "Mr. Mime",
+          "Mr. Mime-Galar"
+        ]
+      },
+      "pokeapi_id": "122",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "ぼうおん",
+        "1": "フィルター",
+        "H": "テクニシャン"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 40,
+          "2": 45,
+          "3": 65,
+          "4": 100,
+          "5": 120,
+          "6": 90
+        },
+        "types": [
+          "Psychic",
+          "Fairy"
+        ],
+        "abilities": {
+          "0": "Soundproof",
+          "1": "Filter",
+          "H": "Technician"
+        }
+      }
+    },
+    "マルノーム": {
+      "id": "swalot",
+      "name": "マルノーム",
+      "pokemon": {
+        "num": 317,
+        "name": "Swalot",
+        "types": [
+          "Poison"
+        ],
+        "baseStats": {
+          "hp": 100,
+          "atk": 73,
+          "def": 83,
+          "spa": 73,
+          "spd": 83,
+          "spe": 55
+        },
+        "abilities": {
+          "0": "Liquid Ooze",
+          "1": "Sticky Hold",
+          "H": "Gluttony"
+        },
+        "heightm": 1.7,
+        "weightkg": 80,
+        "color": "Purple",
+        "prevo": "Gulpin",
+        "evoLevel": 26,
+        "eggGroups": [
+          "Amorphous"
+        ]
+      },
+      "pokeapi_id": "317",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "ヘドロえき",
+        "1": "ねんちゃく",
+        "H": "くいしんぼう"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 100,
+          "2": 73,
+          "3": 83,
+          "4": 73,
+          "5": 83,
+          "6": 55
+        },
+        "types": [
+          "Poison"
+        ],
+        "abilities": {
+          "0": "Liquid Ooze",
+          "1": "Sticky Hold",
+          "H": "Gluttony"
+        }
+      }
+    },
+    "ポワルン (たいようのすがた)": {
+      "id": "castformsunny",
+      "name": "ポワルン (たいようのすがた)",
+      "pokemon": {
+        "num": 351,
+        "name": "Castform-Sunny",
+        "baseSpecies": "Castform",
+        "forme": "Sunny",
+        "types": [
+          "Fire"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 70,
+          "def": 70,
+          "spa": 70,
+          "spd": 70,
+          "spe": 70
+        },
+        "abilities": {
+          "0": "Forecast"
+        },
+        "heightm": 0.3,
+        "weightkg": 0.8,
+        "color": "Red",
+        "eggGroups": [
+          "Fairy",
+          "Amorphous"
+        ],
+        "requiredAbility": "Forecast",
+        "battleOnly": "Castform"
+      },
+      "pokeapi_id": "10013",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "てんきや"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 70,
+          "2": 70,
+          "3": 70,
+          "4": 70,
+          "5": 70,
+          "6": 70
+        },
+        "types": [
+          "Fire"
+        ],
+        "abilities": {
+          "0": "Forecast"
+        }
+      }
+    },
+    "ポワルン (あまみずのすがた)": {
+      "id": "castformrainy",
+      "name": "ポワルン (あまみずのすがた)",
+      "pokemon": {
+        "num": 351,
+        "name": "Castform-Rainy",
+        "baseSpecies": "Castform",
+        "forme": "Rainy",
+        "types": [
+          "Water"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 70,
+          "def": 70,
+          "spa": 70,
+          "spd": 70,
+          "spe": 70
+        },
+        "abilities": {
+          "0": "Forecast"
+        },
+        "heightm": 0.3,
+        "weightkg": 0.8,
+        "color": "Blue",
+        "eggGroups": [
+          "Fairy",
+          "Amorphous"
+        ],
+        "requiredAbility": "Forecast",
+        "battleOnly": "Castform"
+      },
+      "pokeapi_id": "10014",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "てんきや"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 70,
+          "2": 70,
+          "3": 70,
+          "4": 70,
+          "5": 70,
+          "6": 70
+        },
+        "types": [
+          "Water"
+        ],
+        "abilities": {
+          "0": "Forecast"
+        }
+      }
+    },
+    "ポワルン (ゆきぐものすがた)": {
+      "id": "castformsnowy",
+      "name": "ポワルン (ゆきぐものすがた)",
+      "pokemon": {
+        "num": 351,
+        "name": "Castform-Snowy",
+        "baseSpecies": "Castform",
+        "forme": "Snowy",
+        "types": [
+          "Ice"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 70,
+          "def": 70,
+          "spa": 70,
+          "spd": 70,
+          "spe": 70
+        },
+        "abilities": {
+          "0": "Forecast"
+        },
+        "heightm": 0.3,
+        "weightkg": 0.8,
+        "color": "White",
+        "eggGroups": [
+          "Fairy",
+          "Amorphous"
+        ],
+        "requiredAbility": "Forecast",
+        "battleOnly": "Castform"
+      },
+      "pokeapi_id": "10015",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "てんきや"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 70,
+          "2": 70,
+          "3": 70,
+          "4": 70,
+          "5": 70,
+          "6": 70
+        },
+        "types": [
+          "Ice"
+        ],
+        "abilities": {
+          "0": "Forecast"
+        }
+      }
+    },
+    "メガアブソルZ": {
+      "id": "absolmegaz",
+      "name": "メガアブソルZ",
+      "pokemon": {
+        "num": 359,
+        "name": "Absol-Mega-Z",
+        "baseSpecies": "Absol",
+        "forme": "Mega-Z",
+        "types": [
+          "Dark",
+          "Ghost"
+        ],
+        "baseStats": {
+          "hp": 65,
+          "atk": 154,
+          "def": 60,
+          "spa": 75,
+          "spd": 60,
+          "spe": 151
+        },
+        "abilities": {
+          "0": "Sharpness"
+        },
+        "heightm": 1.2,
+        "weightkg": 49,
+        "color": "Black",
+        "eggGroups": [
+          "Field"
+        ],
+        "requiredItem": "Absolite Z",
+        "gen": 9
+      },
+      "pokeapi_id": "10307",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "きれあじ"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 65,
+          "2": 154,
+          "3": 60,
+          "4": 75,
+          "5": 60,
+          "6": 151
+        },
+        "types": [
+          "Dark",
+          "Ghost"
+        ],
+        "abilities": {
+          "0": "Sharpness"
+        }
+      }
+    },
+    "ボーマンダ": {
+      "id": "salamence",
+      "name": "ボーマンダ",
+      "pokemon": {
+        "num": 373,
+        "name": "Salamence",
+        "types": [
+          "Dragon",
+          "Flying"
+        ],
+        "baseStats": {
+          "hp": 95,
+          "atk": 135,
+          "def": 80,
+          "spa": 110,
+          "spd": 80,
+          "spe": 100
+        },
+        "abilities": {
+          "0": "Intimidate",
+          "H": "Moxie"
+        },
+        "heightm": 1.5,
+        "weightkg": 102.6,
+        "color": "Blue",
+        "prevo": "Shelgon",
+        "evoLevel": 50,
+        "eggGroups": [
+          "Dragon"
+        ],
+        "otherFormes": [
+          "Salamence-Mega"
+        ],
+        "formeOrder": [
+          "Salamence",
+          "Salamence-Mega"
+        ]
+      },
+      "pokeapi_id": "373",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "いかく",
+        "H": "じしんかじょう"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 95,
+          "2": 135,
+          "3": 80,
+          "4": 110,
+          "5": 80,
+          "6": 100
+        },
+        "types": [
+          "Dragon",
+          "Flying"
+        ],
+        "abilities": {
+          "0": "Intimidate",
+          "H": "Moxie"
+        }
+      }
+    },
+    "メガボーマンダ": {
+      "id": "salamencemega",
+      "name": "メガボーマンダ",
+      "pokemon": {
+        "num": 373,
+        "name": "Salamence-Mega",
+        "baseSpecies": "Salamence",
+        "forme": "Mega",
+        "types": [
+          "Dragon",
+          "Flying"
+        ],
+        "baseStats": {
+          "hp": 95,
+          "atk": 145,
+          "def": 130,
+          "spa": 120,
+          "spd": 90,
+          "spe": 120
+        },
+        "abilities": {
+          "0": "Aerilate"
+        },
+        "heightm": 1.8,
+        "weightkg": 112.6,
+        "color": "Blue",
+        "eggGroups": [
+          "Dragon"
+        ],
+        "requiredItem": "Salamencite"
+      },
+      "pokeapi_id": "10089",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "スカイスキン"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 95,
+          "2": 145,
+          "3": 130,
+          "4": 120,
+          "5": 90,
+          "6": 120
+        },
+        "types": [
+          "Dragon",
+          "Flying"
+        ],
+        "abilities": {
+          "0": "Aerilate"
+        }
+      }
+    },
+    "メガガブリアスZ": {
+      "id": "garchompmegaz",
+      "name": "メガガブリアスZ",
+      "pokemon": {
+        "num": 445,
+        "name": "Garchomp-Mega-Z",
+        "baseSpecies": "Garchomp",
+        "forme": "Mega-Z",
+        "types": [
+          "Dragon"
+        ],
+        "baseStats": {
+          "hp": 108,
+          "atk": 130,
+          "def": 85,
+          "spa": 141,
+          "spd": 85,
+          "spe": 151
+        },
+        "abilities": {
+          "0": "Levitate"
+        },
+        "heightm": 1.9,
+        "weightkg": 99,
+        "color": "Blue",
+        "eggGroups": [
+          "Monster",
+          "Dragon"
+        ],
+        "requiredItem": "Garchompite Z",
+        "gen": 9
+      },
+      "pokeapi_id": "10309",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "ふゆう"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 108,
+          "2": 130,
+          "3": 85,
+          "4": 141,
+          "5": 85,
+          "6": 151
+        },
+        "types": [
+          "Dragon"
+        ],
+        "abilities": {
+          "0": "Levitate"
+        }
+      }
+    },
+    "メガルカリオZ": {
+      "id": "lucariomegaz",
+      "name": "メガルカリオZ",
+      "pokemon": {
+        "num": 448,
+        "name": "Lucario-Mega-Z",
+        "baseSpecies": "Lucario",
+        "forme": "Mega-Z",
+        "types": [
+          "Fighting",
+          "Steel"
+        ],
+        "genderRatio": {
+          "M": 0.875,
+          "F": 0.125
+        },
+        "baseStats": {
+          "hp": 70,
+          "atk": 100,
+          "def": 70,
+          "spa": 164,
+          "spd": 70,
+          "spe": 151
+        },
+        "abilities": {
+          "0": "Aura Guard"
+        },
+        "heightm": 1.3,
+        "weightkg": 49.4,
+        "color": "Gray",
+        "eggGroups": [
+          "Field",
+          "Human-Like"
+        ],
+        "requiredItem": "Lucarionite Z",
+        "gen": 9
+      },
+      "pokeapi_id": "10310",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": null
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 70,
+          "2": 100,
+          "3": 70,
+          "4": 164,
+          "5": 70,
+          "6": 151
+        },
+        "types": [
+          "Fighting",
+          "Steel"
+        ],
+        "abilities": {
+          "0": "Aura Guard"
+        }
+      }
+    },
+    "ゴーゴート": {
+      "id": "gogoat",
+      "name": "ゴーゴート",
+      "pokemon": {
+        "num": 673,
+        "name": "Gogoat",
+        "types": [
+          "Grass"
+        ],
+        "baseStats": {
+          "hp": 123,
+          "atk": 100,
+          "def": 62,
+          "spa": 97,
+          "spd": 81,
+          "spe": 68
+        },
+        "abilities": {
+          "0": "Sap Sipper",
+          "H": "Grass Pelt"
+        },
+        "heightm": 1.7,
+        "weightkg": 91,
+        "color": "Brown",
+        "prevo": "Skiddo",
+        "evoLevel": 32,
+        "eggGroups": [
+          "Field"
+        ]
+      },
+      "pokeapi_id": "673",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "そうしょく",
+        "H": "くさのけがわ"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 123,
+          "2": 100,
+          "3": 62,
+          "4": 97,
+          "5": 81,
+          "6": 68
+        },
+        "types": [
+          "Grass"
+        ],
+        "abilities": {
+          "0": "Sap Sipper",
+          "H": "Grass Pelt"
+        }
+      }
+    },
+    "グソクムシャ": {
+      "id": "golisopod",
+      "name": "グソクムシャ",
+      "pokemon": {
+        "num": 768,
+        "name": "Golisopod",
+        "types": [
+          "Bug",
+          "Water"
+        ],
+        "baseStats": {
+          "hp": 75,
+          "atk": 125,
+          "def": 140,
+          "spa": 60,
+          "spd": 90,
+          "spe": 40
+        },
+        "abilities": {
+          "0": "Emergency Exit"
+        },
+        "heightm": 2,
+        "weightkg": 108,
+        "color": "Gray",
+        "prevo": "Wimpod",
+        "evoLevel": 30,
+        "eggGroups": [
+          "Bug",
+          "Water 3"
+        ],
+        "otherFormes": [
+          "Golisopod-Mega"
+        ],
+        "formeOrder": [
+          "Golisopod",
+          "Golisopod-Mega"
+        ]
+      },
+      "pokeapi_id": "768",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "ききかいひ"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 75,
+          "2": 125,
+          "3": 140,
+          "4": 60,
+          "5": 90,
+          "6": 40
+        },
+        "types": [
+          "Bug",
+          "Water"
+        ],
+        "abilities": {
+          "0": "Emergency Exit"
+        }
+      }
+    },
+    "メガグソクムシャ": {
+      "id": "golisopodmega",
+      "name": "メガグソクムシャ",
+      "pokemon": {
+        "num": 768,
+        "name": "Golisopod-Mega",
+        "baseSpecies": "Golisopod",
+        "forme": "Mega",
+        "types": [
+          "Bug",
+          "Steel"
+        ],
+        "baseStats": {
+          "hp": 75,
+          "atk": 150,
+          "def": 175,
+          "spa": 70,
+          "spd": 120,
+          "spe": 40
+        },
+        "abilities": {
+          "0": "Tough Claws"
+        },
+        "heightm": 2.3,
+        "weightkg": 148,
+        "color": "Gray",
+        "eggGroups": [
+          "Bug",
+          "Water 3"
+        ],
+        "requiredItem": "Golisopite",
+        "gen": 9
+      },
+      "pokeapi_id": "10316",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "かたいツメ"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 75,
+          "2": 150,
+          "3": 175,
+          "4": 70,
+          "5": 120,
+          "6": 40
+        },
+        "types": [
+          "Bug",
+          "Steel"
+        ],
+        "abilities": {
+          "0": "Tough Claws"
+        }
+      }
+    },
+    "ゴリランダー": {
+      "id": "rillaboom",
+      "name": "ゴリランダー",
+      "pokemon": {
+        "num": 812,
+        "name": "Rillaboom",
+        "types": [
+          "Grass"
+        ],
+        "genderRatio": {
+          "M": 0.875,
+          "F": 0.125
+        },
+        "baseStats": {
+          "hp": 100,
+          "atk": 125,
+          "def": 90,
+          "spa": 60,
+          "spd": 70,
+          "spe": 85
+        },
+        "abilities": {
+          "0": "Overgrow",
+          "H": "Grassy Surge"
+        },
+        "heightm": 2.1,
+        "weightkg": 90,
+        "color": "Green",
+        "prevo": "Thwackey",
+        "evoLevel": 35,
+        "eggGroups": [
+          "Field",
+          "Grass"
+        ],
+        "canGigantamax": "G-Max Drum Solo"
+      },
+      "pokeapi_id": "812",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "しんりょく",
+        "H": "グラスメイカー"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 100,
+          "2": 125,
+          "3": 90,
+          "4": 60,
+          "5": 70,
+          "6": 85
+        },
+        "types": [
+          "Grass"
+        ],
+        "abilities": {
+          "0": "Overgrow",
+          "H": "Grassy Surge"
+        }
+      }
+    },
+    "エースバーン": {
+      "id": "cinderace",
+      "name": "エースバーン",
+      "pokemon": {
+        "num": 815,
+        "name": "Cinderace",
+        "types": [
+          "Fire"
+        ],
+        "genderRatio": {
+          "M": 0.875,
+          "F": 0.125
+        },
+        "baseStats": {
+          "hp": 80,
+          "atk": 116,
+          "def": 75,
+          "spa": 65,
+          "spd": 75,
+          "spe": 119
+        },
+        "abilities": {
+          "0": "Blaze",
+          "H": "Libero"
+        },
+        "heightm": 1.4,
+        "weightkg": 33,
+        "color": "White",
+        "prevo": "Raboot",
+        "evoLevel": 35,
+        "eggGroups": [
+          "Field",
+          "Human-Like"
+        ],
+        "canGigantamax": "G-Max Fireball"
+      },
+      "pokeapi_id": "815",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "もうか",
+        "H": "リベロ"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 80,
+          "2": 116,
+          "3": 75,
+          "4": 65,
+          "5": 75,
+          "6": 119
+        },
+        "types": [
+          "Fire"
+        ],
+        "abilities": {
+          "0": "Blaze",
+          "H": "Libero"
+        }
+      }
+    },
+    "インテレオン": {
+      "id": "inteleon",
+      "name": "インテレオン",
+      "pokemon": {
+        "num": 818,
+        "name": "Inteleon",
+        "types": [
+          "Water"
+        ],
+        "genderRatio": {
+          "M": 0.875,
+          "F": 0.125
+        },
+        "baseStats": {
+          "hp": 70,
+          "atk": 85,
+          "def": 65,
+          "spa": 125,
+          "spd": 65,
+          "spe": 120
+        },
+        "abilities": {
+          "0": "Torrent",
+          "H": "Sniper"
+        },
+        "heightm": 1.9,
+        "weightkg": 45.2,
+        "color": "Blue",
+        "prevo": "Drizzile",
+        "evoLevel": 35,
+        "eggGroups": [
+          "Water 1",
+          "Field"
+        ],
+        "canGigantamax": "G-Max Hydrosnipe"
+      },
+      "pokeapi_id": "818",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "げきりゅう",
+        "H": "スナイパー"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 70,
+          "2": 85,
+          "3": 65,
+          "4": 125,
+          "5": 65,
+          "6": 120
+        },
+        "types": [
+          "Water"
+        ],
+        "abilities": {
+          "0": "Torrent",
+          "H": "Sniper"
+        }
+      }
+    },
+    "フォクスライ": {
+      "id": "thievul",
+      "name": "フォクスライ",
+      "pokemon": {
+        "num": 828,
+        "name": "Thievul",
+        "types": [
+          "Dark"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 58,
+          "def": 58,
+          "spa": 87,
+          "spd": 92,
+          "spe": 90
+        },
+        "abilities": {
+          "0": "Run Away",
+          "1": "Unburden",
+          "H": "Stakeout"
+        },
+        "heightm": 1.2,
+        "weightkg": 19.9,
+        "color": "Brown",
+        "prevo": "Nickit",
+        "evoLevel": 18,
+        "eggGroups": [
+          "Field"
+        ]
+      },
+      "pokeapi_id": "828",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "にげあし",
+        "1": "かるわざ",
+        "H": "はりこみ"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 70,
+          "2": 58,
+          "3": 58,
+          "4": 87,
+          "5": 92,
+          "6": 90
+        },
+        "types": [
+          "Dark"
+        ],
+        "abilities": {
+          "0": "Run Away",
+          "1": "Unburden",
+          "H": "Stakeout"
+        }
+      }
+    },
+    "ストリンダー (ハイなすがた)": {
+      "id": "toxtricity",
+      "name": "ストリンダー (ハイなすがた)",
+      "pokemon": {
+        "num": 849,
+        "name": "Toxtricity",
+        "baseForme": "Amped",
+        "types": [
+          "Electric",
+          "Poison"
+        ],
+        "baseStats": {
+          "hp": 75,
+          "atk": 98,
+          "def": 70,
+          "spa": 114,
+          "spd": 70,
+          "spe": 75
+        },
+        "abilities": {
+          "0": "Punk Rock",
+          "1": "Plus",
+          "H": "Technician"
+        },
+        "heightm": 1.6,
+        "weightkg": 40,
+        "color": "Purple",
+        "prevo": "Toxel",
+        "evoLevel": 30,
+        "eggGroups": [
+          "Human-Like"
+        ],
+        "otherFormes": [
+          "Toxtricity-Low-Key"
+        ],
+        "formeOrder": [
+          "Toxtricity",
+          "Toxtricity-Low-Key"
+        ],
+        "canGigantamax": "G-Max Stun Shock"
+      },
+      "pokeapi_id": "849",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "パンクロック",
+        "1": "プラス",
+        "H": "テクニシャン"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 75,
+          "2": 98,
+          "3": 70,
+          "4": 114,
+          "5": 70,
+          "6": 75
+        },
+        "types": [
+          "Electric",
+          "Poison"
+        ],
+        "abilities": {
+          "0": "Punk Rock",
+          "1": "Plus",
+          "H": "Technician"
+        }
+      }
+    },
+    "ストリンダー (ローなすがた)": {
+      "id": "toxtricitylowkey",
+      "name": "ストリンダー (ローなすがた)",
+      "pokemon": {
+        "num": 849,
+        "name": "Toxtricity-Low-Key",
+        "baseSpecies": "Toxtricity",
+        "forme": "Low-Key",
+        "types": [
+          "Electric",
+          "Poison"
+        ],
+        "baseStats": {
+          "hp": 75,
+          "atk": 98,
+          "def": 70,
+          "spa": 114,
+          "spd": 70,
+          "spe": 75
+        },
+        "abilities": {
+          "0": "Punk Rock",
+          "1": "Minus",
+          "H": "Technician"
+        },
+        "heightm": 1.6,
+        "weightkg": 40,
+        "color": "Purple",
+        "prevo": "Toxel",
+        "evoLevel": 30,
+        "eggGroups": [
+          "Human-Like"
+        ],
+        "canGigantamax": "G-Max Stun Shock"
+      },
+      "pokeapi_id": "10184",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "パンクロック",
+        "1": "マイナス",
+        "H": "テクニシャン"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 75,
+          "2": 98,
+          "3": 70,
+          "4": 114,
+          "5": 70,
+          "6": 75
+        },
+        "types": [
+          "Electric",
+          "Poison"
+        ],
+        "abilities": {
+          "0": "Punk Rock",
+          "1": "Minus",
+          "H": "Technician"
+        }
+      }
+    },
+    "オトスパス": {
+      "id": "grapploct",
+      "name": "オトスパス",
+      "pokemon": {
+        "num": 853,
+        "name": "Grapploct",
+        "types": [
+          "Fighting"
+        ],
+        "baseStats": {
+          "hp": 80,
+          "atk": 118,
+          "def": 90,
+          "spa": 70,
+          "spd": 80,
+          "spe": 42
+        },
+        "abilities": {
+          "0": "Limber",
+          "H": "Technician"
+        },
+        "heightm": 1.6,
+        "weightkg": 39,
+        "color": "Blue",
+        "prevo": "Clobbopus",
+        "evoType": "levelMove",
+        "evoMove": "Taunt",
+        "eggGroups": [
+          "Water 1",
+          "Human-Like"
+        ]
+      },
+      "pokeapi_id": "853",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "じゅうなん",
+        "H": "テクニシャン"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 80,
+          "2": 118,
+          "3": 90,
+          "4": 70,
+          "5": 80,
+          "6": 42
+        },
+        "types": [
+          "Fighting"
+        ],
+        "abilities": {
+          "0": "Limber",
+          "H": "Technician"
+        }
+      }
+    },
+    "ニャイキング": {
+      "id": "perrserker",
+      "name": "ニャイキング",
+      "pokemon": {
+        "num": 863,
+        "name": "Perrserker",
+        "types": [
+          "Steel"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 110,
+          "def": 100,
+          "spa": 50,
+          "spd": 60,
+          "spe": 50
+        },
+        "abilities": {
+          "0": "Battle Armor",
+          "1": "Tough Claws",
+          "H": "Steely Spirit"
+        },
+        "heightm": 0.8,
+        "weightkg": 28,
+        "color": "Brown",
+        "prevo": "Meowth-Galar",
+        "evoLevel": 28,
+        "eggGroups": [
+          "Field"
+        ]
+      },
+      "pokeapi_id": "863",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "カブトアーマー",
+        "1": "かたいツメ",
+        "H": "はがねのせいしん"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 70,
+          "2": 110,
+          "3": 100,
+          "4": 50,
+          "5": 60,
+          "6": 50
+        },
+        "types": [
+          "Steel"
+        ],
+        "abilities": {
+          "0": "Battle Armor",
+          "1": "Tough Claws",
+          "H": "Steely Spirit"
+        }
+      }
+    },
+    "ネギガナイト": {
+      "id": "sirfetchd",
+      "name": "ネギガナイト",
+      "pokemon": {
+        "num": 865,
+        "name": "Sirfetch’d",
+        "types": [
+          "Fighting"
+        ],
+        "baseStats": {
+          "hp": 62,
+          "atk": 135,
+          "def": 95,
+          "spa": 68,
+          "spd": 82,
+          "spe": 65
+        },
+        "abilities": {
+          "0": "Steadfast",
+          "H": "Scrappy"
+        },
+        "heightm": 0.8,
+        "weightkg": 117,
+        "color": "White",
+        "prevo": "Farfetch’d-Galar",
+        "evoType": "other",
+        "evoCondition": "Land 3 critical hits in 1 battle",
+        "eggGroups": [
+          "Flying",
+          "Field"
+        ]
+      },
+      "pokeapi_id": "865",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "ふくつのこころ",
+        "H": "きもったま"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 62,
+          "2": 135,
+          "3": 95,
+          "4": 68,
+          "5": 82,
+          "6": 65
+        },
+        "types": [
+          "Fighting"
+        ],
+        "abilities": {
+          "0": "Steadfast",
+          "H": "Scrappy"
+        }
+      }
+    },
+    "バチンウニ": {
+      "id": "pincurchin",
+      "name": "バチンウニ",
+      "pokemon": {
+        "num": 871,
+        "name": "Pincurchin",
+        "types": [
+          "Electric"
+        ],
+        "baseStats": {
+          "hp": 48,
+          "atk": 101,
+          "def": 95,
+          "spa": 91,
+          "spd": 85,
+          "spe": 15
+        },
+        "abilities": {
+          "0": "Lightning Rod",
+          "H": "Electric Surge"
+        },
+        "heightm": 0.3,
+        "weightkg": 1,
+        "color": "Purple",
+        "eggGroups": [
+          "Water 1",
+          "Amorphous"
+        ]
+      },
+      "pokeapi_id": "871",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "ひらいしん",
+        "H": "エレキメイカー"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 48,
+          "2": 101,
+          "3": 95,
+          "4": 91,
+          "5": 85,
+          "6": 15
+        },
+        "types": [
+          "Electric"
+        ],
+        "abilities": {
+          "0": "Lightning Rod",
+          "H": "Electric Surge"
+        }
+      }
+    },
+    "イエッサン (オスのすがた)": {
+      "id": "indeedee",
+      "name": "イエッサン (オスのすがた)",
+      "pokemon": {
+        "num": 876,
+        "name": "Indeedee",
+        "baseForme": "M",
+        "types": [
+          "Psychic",
+          "Normal"
+        ],
+        "gender": "M",
+        "baseStats": {
+          "hp": 60,
+          "atk": 65,
+          "def": 55,
+          "spa": 105,
+          "spd": 95,
+          "spe": 95
+        },
+        "abilities": {
+          "0": "Inner Focus",
+          "1": "Synchronize",
+          "H": "Psychic Surge"
+        },
+        "heightm": 0.9,
+        "weightkg": 28,
+        "color": "Purple",
+        "eggGroups": [
+          "Fairy"
+        ],
+        "otherFormes": [
+          "Indeedee-F"
+        ],
+        "formeOrder": [
+          "Indeedee",
+          "Indeedee-F"
+        ],
+        "mother": "indeedeef"
+      },
+      "pokeapi_id": "876",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "せいしんりょく",
+        "1": "シンクロ",
+        "H": "サイコメイカー"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 60,
+          "2": 65,
+          "3": 55,
+          "4": 105,
+          "5": 95,
+          "6": 95
+        },
+        "types": [
+          "Psychic",
+          "Normal"
+        ],
+        "abilities": {
+          "0": "Inner Focus",
+          "1": "Synchronize",
+          "H": "Psychic Surge"
+        }
+      }
+    },
+    "イエッサン (メスのすがた)": {
+      "id": "indeedeef",
+      "name": "イエッサン (メスのすがた)",
+      "pokemon": {
+        "num": 876,
+        "name": "Indeedee-F",
+        "baseSpecies": "Indeedee",
+        "forme": "F",
+        "types": [
+          "Psychic",
+          "Normal"
+        ],
+        "gender": "F",
+        "baseStats": {
+          "hp": 70,
+          "atk": 55,
+          "def": 65,
+          "spa": 95,
+          "spd": 105,
+          "spe": 85
+        },
+        "abilities": {
+          "0": "Own Tempo",
+          "1": "Synchronize",
+          "H": "Psychic Surge"
+        },
+        "heightm": 0.9,
+        "weightkg": 28,
+        "color": "Purple",
+        "eggGroups": [
+          "Fairy"
+        ]
+      },
+      "pokeapi_id": "10186",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "マイペース",
+        "1": "シンクロ",
+        "H": "サイコメイカー"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 70,
+          "2": 55,
+          "3": 65,
+          "4": 95,
+          "5": 105,
+          "6": 85
+        },
+        "types": [
+          "Psychic",
+          "Normal"
+        ],
+        "abilities": {
+          "0": "Own Tempo",
+          "1": "Synchronize",
+          "H": "Psychic Surge"
+        }
+      }
+    },
+    "パーモット": {
+      "id": "pawmot",
+      "name": "パーモット",
+      "pokemon": {
+        "num": 923,
+        "name": "Pawmot",
+        "types": [
+          "Electric",
+          "Fighting"
+        ],
+        "baseStats": {
+          "hp": 70,
+          "atk": 115,
+          "def": 70,
+          "spa": 70,
+          "spd": 60,
+          "spe": 105
+        },
+        "abilities": {
+          "0": "Volt Absorb",
+          "1": "Natural Cure",
+          "H": "Iron Fist"
+        },
+        "heightm": 0.9,
+        "weightkg": 41,
+        "color": "Yellow",
+        "prevo": "Pawmo",
+        "evoType": "other",
+        "evoCondition": "walk 1000 steps in Let's Go",
+        "eggGroups": [
+          "Field"
+        ]
+      },
+      "pokeapi_id": "923",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "ちくでん",
+        "1": "しぜんかいふく",
+        "H": "てつのこぶし"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 70,
+          "2": 115,
+          "3": 70,
+          "4": 70,
+          "5": 60,
+          "6": 105
+        },
+        "types": [
+          "Electric",
+          "Fighting"
+        ],
+        "abilities": {
+          "0": "Volt Absorb",
+          "1": "Natural Cure",
+          "H": "Iron Fist"
+        }
+      }
+    },
+    "オリーヴァ": {
+      "id": "arboliva",
+      "name": "オリーヴァ",
+      "pokemon": {
+        "num": 930,
+        "name": "Arboliva",
+        "types": [
+          "Grass",
+          "Normal"
+        ],
+        "baseStats": {
+          "hp": 78,
+          "atk": 69,
+          "def": 90,
+          "spa": 125,
+          "spd": 109,
+          "spe": 39
+        },
+        "abilities": {
+          "0": "Seed Sower",
+          "H": "Harvest"
+        },
+        "heightm": 1.4,
+        "weightkg": 48.2,
+        "color": "Green",
+        "prevo": "Dolliv",
+        "evoLevel": 35,
+        "eggGroups": [
+          "Grass"
+        ]
+      },
+      "pokeapi_id": "930",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "こぼれダネ",
+        "H": "しゅうかく"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 78,
+          "2": 69,
+          "3": 90,
+          "4": 125,
+          "5": 109,
+          "6": 39
+        },
+        "types": [
+          "Grass",
+          "Normal"
+        ],
+        "abilities": {
+          "0": "Seed Sower",
+          "H": "Harvest"
+        }
+      }
+    },
+    "イキリンコ (グリーンフェザー)": {
+      "id": "squawkabilly",
+      "name": "イキリンコ (グリーンフェザー)",
+      "pokemon": {
+        "num": 931,
+        "name": "Squawkabilly",
+        "baseForme": "Green",
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "baseStats": {
+          "hp": 82,
+          "atk": 96,
+          "def": 51,
+          "spa": 45,
+          "spd": 51,
+          "spe": 92
+        },
+        "abilities": {
+          "0": "Intimidate",
+          "1": "Hustle",
+          "H": "Guts"
+        },
+        "heightm": 0.6,
+        "weightkg": 2.4,
+        "color": "Green",
+        "otherFormes": [
+          "Squawkabilly-Blue",
+          "Squawkabilly-Yellow",
+          "Squawkabilly-White"
+        ],
+        "formeOrder": [
+          "Squawkabilly",
+          "Squawkabilly-Blue",
+          "Squawkabilly-Yellow",
+          "Squawkabilly-White"
+        ],
+        "eggGroups": [
+          "Flying"
+        ]
+      },
+      "pokeapi_id": "931",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "いかく",
+        "1": "はりきり",
+        "H": "こんじょう"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 82,
+          "2": 96,
+          "3": 51,
+          "4": 45,
+          "5": 51,
+          "6": 92
+        },
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "abilities": {
+          "0": "Intimidate",
+          "1": "Hustle",
+          "H": "Guts"
+        }
+      }
+    },
+    "イキリンコ (ブルーフェザー)": {
+      "id": "squawkabillyblue",
+      "name": "イキリンコ (ブルーフェザー)",
+      "pokemon": {
+        "num": 931,
+        "name": "Squawkabilly-Blue",
+        "baseSpecies": "Squawkabilly",
+        "forme": "Blue",
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "baseStats": {
+          "hp": 82,
+          "atk": 96,
+          "def": 51,
+          "spa": 45,
+          "spd": 51,
+          "spe": 92
+        },
+        "abilities": {
+          "0": "Intimidate",
+          "1": "Hustle",
+          "H": "Guts"
+        },
+        "heightm": 0.6,
+        "weightkg": 2.4,
+        "color": "Blue",
+        "eggGroups": [
+          "Flying"
+        ]
+      },
+      "pokeapi_id": "10260",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "いかく",
+        "1": "はりきり",
+        "H": "こんじょう"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 82,
+          "2": 96,
+          "3": 51,
+          "4": 45,
+          "5": 51,
+          "6": 92
+        },
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "abilities": {
+          "0": "Intimidate",
+          "1": "Hustle",
+          "H": "Guts"
+        }
+      }
+    },
+    "イキリンコ (イエローフェザー)": {
+      "id": "squawkabillyyellow",
+      "name": "イキリンコ (イエローフェザー)",
+      "pokemon": {
+        "num": 931,
+        "name": "Squawkabilly-Yellow",
+        "baseSpecies": "Squawkabilly",
+        "forme": "Yellow",
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "baseStats": {
+          "hp": 82,
+          "atk": 96,
+          "def": 51,
+          "spa": 45,
+          "spd": 51,
+          "spe": 92
+        },
+        "abilities": {
+          "0": "Intimidate",
+          "1": "Hustle",
+          "H": "Sheer Force"
+        },
+        "heightm": 0.6,
+        "weightkg": 2.4,
+        "color": "Yellow",
+        "eggGroups": [
+          "Flying"
+        ]
+      },
+      "pokeapi_id": "10261",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "いかく",
+        "1": "はりきり",
+        "H": "ちからずく"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 82,
+          "2": 96,
+          "3": 51,
+          "4": 45,
+          "5": 51,
+          "6": 92
+        },
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "abilities": {
+          "0": "Intimidate",
+          "1": "Hustle",
+          "H": "Sheer Force"
+        }
+      }
+    },
+    "イキリンコ (ホワイトフェザー)": {
+      "id": "squawkabillywhite",
+      "name": "イキリンコ (ホワイトフェザー)",
+      "pokemon": {
+        "num": 931,
+        "name": "Squawkabilly-White",
+        "baseSpecies": "Squawkabilly",
+        "forme": "White",
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "baseStats": {
+          "hp": 82,
+          "atk": 96,
+          "def": 51,
+          "spa": 45,
+          "spd": 51,
+          "spe": 92
+        },
+        "abilities": {
+          "0": "Intimidate",
+          "1": "Hustle",
+          "H": "Sheer Force"
+        },
+        "heightm": 0.6,
+        "weightkg": 2.4,
+        "color": "White",
+        "eggGroups": [
+          "Flying"
+        ]
+      },
+      "pokeapi_id": "10262",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "いかく",
+        "1": "はりきり",
+        "H": "ちからずく"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 82,
+          "2": 96,
+          "3": 51,
+          "4": 45,
+          "5": 51,
+          "6": 92
+        },
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "abilities": {
+          "0": "Intimidate",
+          "1": "Hustle",
+          "H": "Sheer Force"
+        }
+      }
+    },
+    "マフィティフ": {
+      "id": "mabosstiff",
+      "name": "マフィティフ",
+      "pokemon": {
+        "num": 943,
+        "name": "Mabosstiff",
+        "types": [
+          "Dark"
+        ],
+        "baseStats": {
+          "hp": 80,
+          "atk": 120,
+          "def": 90,
+          "spa": 60,
+          "spd": 70,
+          "spe": 85
+        },
+        "abilities": {
+          "0": "Intimidate",
+          "1": "Guard Dog",
+          "H": "Stakeout"
+        },
+        "heightm": 1.1,
+        "weightkg": 61,
+        "color": "Gray",
+        "prevo": "Maschiff",
+        "evoLevel": 30,
+        "eggGroups": [
+          "Field"
+        ]
+      },
+      "pokeapi_id": "943",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "いかく",
+        "1": "ばんけん",
+        "H": "はりこみ"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 80,
+          "2": 120,
+          "3": 90,
+          "4": 60,
+          "5": 70,
+          "6": 85
+        },
+        "types": [
+          "Dark"
+        ],
+        "abilities": {
+          "0": "Intimidate",
+          "1": "Guard Dog",
+          "H": "Stakeout"
+        }
+      }
+    },
+    "セグレイブ": {
+      "id": "baxcalibur",
+      "name": "セグレイブ",
+      "pokemon": {
+        "num": 998,
+        "name": "Baxcalibur",
+        "types": [
+          "Dragon",
+          "Ice"
+        ],
+        "baseStats": {
+          "hp": 115,
+          "atk": 145,
+          "def": 92,
+          "spa": 75,
+          "spd": 86,
+          "spe": 87
+        },
+        "abilities": {
+          "0": "Thermal Exchange",
+          "H": "Ice Body"
+        },
+        "heightm": 2.1,
+        "weightkg": 210,
+        "color": "Blue",
+        "prevo": "Arctibax",
+        "evoLevel": 54,
+        "eggGroups": [
+          "Dragon",
+          "Mineral"
+        ],
+        "otherFormes": [
+          "Baxcalibur-Mega"
+        ],
+        "formeOrder": [
+          "Baxcalibur",
+          "Baxcalibur-Mega"
+        ]
+      },
+      "pokeapi_id": "998",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "ねつこうかん",
+        "H": "アイスボディ"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 115,
+          "2": 145,
+          "3": 92,
+          "4": 75,
+          "5": 86,
+          "6": 87
+        },
+        "types": [
+          "Dragon",
+          "Ice"
+        ],
+        "abilities": {
+          "0": "Thermal Exchange",
+          "H": "Ice Body"
+        }
+      }
+    },
+    "メガセグレイブ": {
+      "id": "baxcaliburmega",
+      "name": "メガセグレイブ",
+      "pokemon": {
+        "num": 998,
+        "name": "Baxcalibur-Mega",
+        "baseSpecies": "Baxcalibur",
+        "forme": "Mega",
+        "types": [
+          "Dragon",
+          "Ice"
+        ],
+        "baseStats": {
+          "hp": 115,
+          "atk": 175,
+          "def": 117,
+          "spa": 105,
+          "spd": 101,
+          "spe": 87
+        },
+        "abilities": {
+          "0": "Thermal Exchange"
+        },
+        "heightm": 2.1,
+        "weightkg": 315,
+        "color": "Blue",
+        "eggGroups": [
+          "Dragon",
+          "Mineral"
+        ],
+        "requiredItem": "Baxcalibrite"
+      },
+      "pokeapi_id": "10325",
+      "matches": {
+        "stats": true,
+        "types": true,
+        "abilities": true
+      },
+      "abilities_jp": {
+        "0": "ねつこうかん"
+      },
+      "listed_in_secondary_champions": true,
+      "pokeapi_evidence": {
+        "stats": {
+          "1": 115,
+          "2": 175,
+          "3": 117,
+          "4": 105,
+          "5": 101,
+          "6": 87
+        },
+        "types": [
+          "Dragon",
+          "Ice"
+        ],
+        "abilities": {
+          "0": "Thermal Exchange"
+        }
+      }
+    }
+  },
+  "moves": {
+    "ハサミギロチン": {
+      "id": "guillotine",
+      "name": "ハサミギロチン",
+      "type": "Normal",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 12,
+        "accuracy": 30,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Guillotine",
+        "pp": 5,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "ohko": true,
+        "target": "normal",
+        "type": "Normal",
+        "zMove": {
+          "basePower": 180
+        },
+        "maxMove": {
+          "basePower": 130
+        },
+        "contestType": "Cool"
+      }
+    },
+    "つのドリル": {
+      "id": "horndrill",
+      "name": "つのドリル",
+      "type": "Normal",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 32,
+        "accuracy": 30,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Horn Drill",
+        "pp": 5,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "ohko": true,
+        "target": "normal",
+        "type": "Normal",
+        "zMove": {
+          "basePower": 180
+        },
+        "maxMove": {
+          "basePower": 130
+        },
+        "contestType": "Cool"
+      }
+    },
+    "けたぐり": {
+      "id": "lowkick",
+      "name": "けたぐり",
+      "type": "Fighting",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 67,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Low Kick",
+        "pp": 20,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "target": "normal",
+        "type": "Fighting",
+        "zMove": {
+          "basePower": 160
+        },
+        "contestType": "Tough"
+      }
+    },
+    "カウンター": {
+      "id": "counter",
+      "name": "カウンター",
+      "type": "Fighting",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 68,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Counter",
+        "pp": 20,
+        "priority": -5,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "failmefirst": 1,
+          "noassist": 1,
+          "failcopycat": 1
+        },
+        "condition": {
+          "duration": 1,
+          "noCopy": true,
+          "onRedirectTargetPriority": -1
+        },
+        "target": "scripted",
+        "type": "Fighting",
+        "maxMove": {
+          "basePower": 75
+        },
+        "contestType": "Tough"
+      }
+    },
+    "ちきゅうなげ": {
+      "id": "seismictoss",
+      "name": "ちきゅうなげ",
+      "type": "Fighting",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 69,
+        "accuracy": 100,
+        "basePower": 0,
+        "damage": "level",
+        "category": "Physical",
+        "name": "Seismic Toss",
+        "pp": 20,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "nonsky": 1,
+          "metronome": 1
+        },
+        "target": "normal",
+        "type": "Fighting",
+        "maxMove": {
+          "basePower": 75
+        },
+        "contestType": "Tough"
+      }
+    },
+    "じわれ": {
+      "id": "fissure",
+      "name": "じわれ",
+      "type": "Ground",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 90,
+        "accuracy": 30,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Fissure",
+        "pp": 5,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "nonsky": 1,
+          "metronome": 1
+        },
+        "ohko": true,
+        "target": "normal",
+        "type": "Ground",
+        "zMove": {
+          "basePower": 180
+        },
+        "maxMove": {
+          "basePower": 130
+        },
+        "contestType": "Tough"
+      }
+    },
+    "ナイトヘッド": {
+      "id": "nightshade",
+      "name": "ナイトヘッド",
+      "type": "Ghost",
+      "category": "special",
+      "base_power": null,
+      "champions": {
+        "num": 101,
+        "accuracy": 100,
+        "basePower": 0,
+        "damage": "level",
+        "category": "Special",
+        "name": "Night Shade",
+        "pp": 15,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "target": "normal",
+        "type": "Ghost",
+        "contestType": "Clever"
+      }
+    },
+    "いかりのまえば": {
+      "id": "superfang",
+      "name": "いかりのまえば",
+      "type": "Normal",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 162,
+        "accuracy": 90,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Super Fang",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "target": "normal",
+        "type": "Normal",
+        "contestType": "Tough"
+      }
+    },
+    "きりさく": {
+      "id": "slash",
+      "name": "きりさく",
+      "type": "Normal",
+      "category": "physical",
+      "base_power": 70,
+      "champions": {
+        "num": 163,
+        "accuracy": 100,
+        "basePower": 80,
+        "category": "Physical",
+        "name": "Slash",
+        "pp": 20,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1,
+          "slicing": 1
+        },
+        "critRatio": 2,
+        "target": "normal",
+        "type": "Normal",
+        "contestType": "Cool",
+        "inherit": true
+      }
+    },
+    "じたばた": {
+      "id": "flail",
+      "name": "じたばた",
+      "type": "Normal",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 175,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Flail",
+        "pp": 15,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "target": "normal",
+        "type": "Normal",
+        "zMove": {
+          "basePower": 160
+        },
+        "maxMove": {
+          "basePower": 130
+        },
+        "contestType": "Cute"
+      }
+    },
+    "きしかいせい": {
+      "id": "reversal",
+      "name": "きしかいせい",
+      "type": "Fighting",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 179,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Reversal",
+        "pp": 15,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "target": "normal",
+        "type": "Fighting",
+        "zMove": {
+          "basePower": 160
+        },
+        "contestType": "Cool"
+      }
+    },
+    "ミルクのみ": {
+      "id": "milkdrink",
+      "name": "ミルクのみ",
+      "type": "Normal",
+      "category": "status",
+      "base_power": null,
+      "champions": {
+        "num": 208,
+        "accuracy": true,
+        "basePower": 0,
+        "category": "Status",
+        "name": "Milk Drink",
+        "pp": 5,
+        "priority": 0,
+        "flags": {
+          "snatch": 1,
+          "heal": 1,
+          "metronome": 1
+        },
+        "heal": [
+          1,
+          2
+        ],
+        "target": "adjacentAllyOrSelf",
+        "type": "Normal",
+        "zMove": {
+          "effect": "clearnegativeboost"
+        },
+        "contestType": "Cute",
+        "inherit": true
+      }
+    },
+    "ミラーコート": {
+      "id": "mirrorcoat",
+      "name": "ミラーコート",
+      "type": "Psychic",
+      "category": "special",
+      "base_power": null,
+      "champions": {
+        "num": 243,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Special",
+        "name": "Mirror Coat",
+        "pp": 20,
+        "priority": -5,
+        "flags": {
+          "protect": 1,
+          "failmefirst": 1,
+          "noassist": 1
+        },
+        "condition": {
+          "duration": 1,
+          "noCopy": true,
+          "onRedirectTargetPriority": -1
+        },
+        "target": "scripted",
+        "type": "Psychic",
+        "contestType": "Beautiful"
+      }
+    },
+    "ふくろだたき": {
+      "id": "beatup",
+      "name": "ふくろだたき",
+      "type": "Dark",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 251,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Beat Up",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "allyanim": 1,
+          "metronome": 1
+        },
+        "target": "normal",
+        "type": "Dark",
+        "contestType": "Clever"
+      }
+    },
+    "はきだす": {
+      "id": "spitup",
+      "name": "はきだす",
+      "type": "Normal",
+      "category": "special",
+      "base_power": null,
+      "champions": {
+        "num": 255,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Special",
+        "name": "Spit Up",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "metronome": 1
+        },
+        "target": "normal",
+        "type": "Normal",
+        "contestType": "Tough"
+      }
+    },
+    "がむしゃら": {
+      "id": "endeavor",
+      "name": "がむしゃら",
+      "type": "Normal",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 283,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Endeavor",
+        "pp": 5,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1,
+          "noparentalbond": 1
+        },
+        "target": "normal",
+        "type": "Normal",
+        "zMove": {
+          "basePower": 160
+        },
+        "maxMove": {
+          "basePower": 130
+        },
+        "contestType": "Tough"
+      }
+    },
+    "ぜったいれいど": {
+      "id": "sheercold",
+      "name": "ぜったいれいど",
+      "type": "Ice",
+      "category": "special",
+      "base_power": null,
+      "champions": {
+        "num": 329,
+        "accuracy": 30,
+        "basePower": 0,
+        "category": "Special",
+        "name": "Sheer Cold",
+        "pp": 5,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "ohko": "Ice",
+        "target": "normal",
+        "type": "Ice",
+        "zMove": {
+          "basePower": 180
+        },
+        "maxMove": {
+          "basePower": 130
+        },
+        "contestType": "Beautiful"
+      }
+    },
+    "ジャイロボール": {
+      "id": "gyroball",
+      "name": "ジャイロボール",
+      "type": "Steel",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 360,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Gyro Ball",
+        "pp": 5,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1,
+          "bullet": 1
+        },
+        "target": "normal",
+        "type": "Steel",
+        "zMove": {
+          "basePower": 160
+        },
+        "maxMove": {
+          "basePower": 130
+        },
+        "contestType": "Cool"
+      }
+    },
+    "メタルバースト": {
+      "id": "metalburst",
+      "name": "メタルバースト",
+      "type": "Steel",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 368,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Metal Burst",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1,
+          "failmefirst": 1
+        },
+        "target": "scripted",
+        "type": "Steel",
+        "contestType": "Cool"
+      }
+    },
+    "なげつける": {
+      "id": "fling",
+      "name": "なげつける",
+      "type": "Dark",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 374,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Fling",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "allyanim": 1,
+          "metronome": 1,
+          "noparentalbond": 1
+        },
+        "condition": {},
+        "target": "normal",
+        "type": "Dark",
+        "contestType": "Cute"
+      }
+    },
+    "つじぎり": {
+      "id": "nightslash",
+      "name": "つじぎり",
+      "type": "Dark",
+      "category": "physical",
+      "base_power": 70,
+      "champions": {
+        "num": 400,
+        "accuracy": 100,
+        "basePower": 70,
+        "category": "Physical",
+        "name": "Night Slash",
+        "pp": 20,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1,
+          "slicing": 1
+        },
+        "critRatio": 2,
+        "target": "normal",
+        "type": "Dark",
+        "contestType": "Cool",
+        "inherit": true
+      }
+    },
+    "くさむすび": {
+      "id": "grassknot",
+      "name": "くさむすび",
+      "type": "Grass",
+      "category": "special",
+      "base_power": null,
+      "champions": {
+        "num": 447,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Special",
+        "name": "Grass Knot",
+        "pp": 20,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "nonsky": 1,
+          "metronome": 1
+        },
+        "target": "normal",
+        "type": "Grass",
+        "zMove": {
+          "basePower": 160
+        },
+        "maxMove": {
+          "basePower": 130
+        },
+        "contestType": "Cute"
+      }
+    },
+    "ヘビーボンバー": {
+      "id": "heavyslam",
+      "name": "ヘビーボンバー",
+      "type": "Steel",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 484,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Heavy Slam",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "nonsky": 1,
+          "metronome": 1,
+          "minimize": 1
+        },
+        "target": "normal",
+        "type": "Steel",
+        "zMove": {
+          "basePower": 160
+        },
+        "maxMove": {
+          "basePower": 130
+        },
+        "contestType": "Tough"
+      }
+    },
+    "エレキボール": {
+      "id": "electroball",
+      "name": "エレキボール",
+      "type": "Electric",
+      "category": "special",
+      "base_power": null,
+      "champions": {
+        "num": 486,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Special",
+        "name": "Electro Ball",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1,
+          "bullet": 1
+        },
+        "target": "normal",
+        "type": "Electric",
+        "zMove": {
+          "basePower": 160
+        },
+        "maxMove": {
+          "basePower": 130
+        },
+        "contestType": "Cool"
+      }
+    },
+    "たたりめ": {
+      "id": "hex",
+      "name": "たたりめ",
+      "type": "Ghost",
+      "category": "special",
+      "base_power": 65,
+      "champions": {
+        "num": 506,
+        "accuracy": 100,
+        "basePower": 65,
+        "category": "Special",
+        "name": "Hex",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "target": "normal",
+        "type": "Ghost",
+        "zMove": {
+          "basePower": 160
+        },
+        "contestType": "Clever"
+      }
+    },
+    "ギアチェンジ": {
+      "id": "shiftgear",
+      "name": "ギアチェンジ",
+      "type": "Steel",
+      "category": "status",
+      "base_power": null,
+      "champions": {
+        "num": 508,
+        "accuracy": true,
+        "basePower": 0,
+        "category": "Status",
+        "name": "Shift Gear",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "snatch": 1,
+          "metronome": 1
+        },
+        "boosts": {
+          "spe": 2,
+          "atk": 1
+        },
+        "target": "self",
+        "type": "Steel",
+        "zMove": {
+          "effect": "clearnegativeboost"
+        },
+        "contestType": "Clever"
+      }
+    },
+    "いのちがけ": {
+      "id": "finalgambit",
+      "name": "いのちがけ",
+      "type": "Fighting",
+      "category": "special",
+      "base_power": null,
+      "champions": {
+        "num": 515,
+        "accuracy": 100,
+        "basePower": 0,
+        "selfdestruct": "ifHit",
+        "category": "Special",
+        "name": "Final Gambit",
+        "pp": 5,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "metronome": 1,
+          "noparentalbond": 1
+        },
+        "target": "normal",
+        "type": "Fighting",
+        "zMove": {
+          "basePower": 180
+        },
+        "contestType": "Tough"
+      }
+    },
+    "ヒートスタンプ": {
+      "id": "heatcrash",
+      "name": "ヒートスタンプ",
+      "type": "Fire",
+      "category": "physical",
+      "base_power": null,
+      "champions": {
+        "num": 535,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Heat Crash",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "nonsky": 1,
+          "metronome": 1,
+          "minimize": 1
+        },
+        "target": "normal",
+        "type": "Fire",
+        "zMove": {
+          "basePower": 160
+        },
+        "maxMove": {
+          "basePower": 130
+        },
+        "contestType": "Tough"
+      }
+    },
+    "ひっくりかえす": {
+      "id": "topsyturvy",
+      "name": "ひっくりかえす",
+      "type": "Dark",
+      "category": "status",
+      "base_power": null,
+      "champions": {
+        "num": 576,
+        "accuracy": true,
+        "basePower": 0,
+        "category": "Status",
+        "name": "Topsy-Turvy",
+        "pp": 20,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "reflectable": 1,
+          "mirror": 1,
+          "allyanim": 1,
+          "metronome": 1
+        },
+        "target": "normal",
+        "type": "Dark",
+        "zMove": {
+          "boost": {
+            "atk": 1
+          }
+        },
+        "contestType": "Clever"
+      }
+    },
+    "びりびりちくちく": {
+      "id": "zingzap",
+      "name": "びりびりちくちく",
+      "type": "Electric",
+      "category": "physical",
+      "base_power": 80,
+      "champions": {
+        "num": 716,
+        "accuracy": 100,
+        "basePower": 80,
+        "category": "Physical",
+        "name": "Zing Zap",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "secondary": {
+          "chance": 30,
+          "volatileStatus": "flinch"
+        },
+        "target": "normal",
+        "type": "Electric",
+        "contestType": "Cool"
+      }
+    },
+    "ねらいうち": {
+      "id": "snipeshot",
+      "name": "ねらいうち",
+      "type": "Water",
+      "category": "special",
+      "base_power": 80,
+      "champions": {
+        "num": 745,
+        "accuracy": 100,
+        "basePower": 85,
+        "category": "Special",
+        "name": "Snipe Shot",
+        "pp": 15,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "critRatio": 2,
+        "tracksTarget": true,
+        "target": "normal",
+        "type": "Water",
+        "inherit": true
+      }
+    },
+    "くらいつく": {
+      "id": "jawlock",
+      "name": "くらいつく",
+      "type": "Dark",
+      "category": "physical",
+      "base_power": 80,
+      "champions": {
+        "num": 746,
+        "accuracy": 100,
+        "basePower": 80,
+        "category": "Physical",
+        "name": "Jaw Lock",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1,
+          "bite": 1
+        },
+        "target": "normal",
+        "type": "Dark"
+      }
+    },
+    "はいすいのじん": {
+      "id": "noretreat",
+      "name": "はいすいのじん",
+      "type": "Fighting",
+      "category": "status",
+      "base_power": null,
+      "champions": {
+        "num": 748,
+        "accuracy": true,
+        "basePower": 0,
+        "category": "Status",
+        "name": "No Retreat",
+        "pp": 5,
+        "priority": 0,
+        "flags": {
+          "snatch": 1,
+          "metronome": 1
+        },
+        "volatileStatus": "noretreat",
+        "condition": {},
+        "boosts": {
+          "atk": 1,
+          "def": 1,
+          "spa": 1,
+          "spd": 1,
+          "spe": 1
+        },
+        "target": "self",
+        "type": "Fighting"
+      }
+    },
+    "たこがため": {
+      "id": "octolock",
+      "name": "たこがため",
+      "type": "Fighting",
+      "category": "status",
+      "base_power": null,
+      "champions": {
+        "num": 753,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Status",
+        "isNonstandard": null,
+        "name": "Octolock",
+        "pp": 15,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "volatileStatus": "octolock",
+        "condition": {
+          "onResidualOrder": 14
+        },
+        "target": "normal",
+        "type": "Fighting",
+        "inherit": true
+      }
+    },
+    "コートチェンジ": {
+      "id": "courtchange",
+      "name": "コートチェンジ",
+      "type": "Normal",
+      "category": "status",
+      "base_power": null,
+      "champions": {
+        "num": 756,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Status",
+        "name": "Court Change",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "mirror": 1,
+          "metronome": 1
+        },
+        "target": "all",
+        "type": "Normal"
+      }
+    },
+    "ドラムアタック": {
+      "id": "drumbeating",
+      "name": "ドラムアタック",
+      "type": "Grass",
+      "category": "physical",
+      "base_power": 80,
+      "champions": {
+        "num": 778,
+        "accuracy": 100,
+        "basePower": 80,
+        "category": "Physical",
+        "name": "Drum Beating",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1
+        },
+        "secondary": {
+          "chance": 100,
+          "boosts": {
+            "spe": -1
+          }
+        },
+        "target": "normal",
+        "type": "Grass"
+      }
+    },
+    "かえんボール": {
+      "id": "pyroball",
+      "name": "かえんボール",
+      "type": "Fire",
+      "category": "physical",
+      "base_power": 120,
+      "champions": {
+        "num": 780,
+        "accuracy": 90,
+        "basePower": 120,
+        "category": "Physical",
+        "name": "Pyro Ball",
+        "pp": 5,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "defrost": 1,
+          "bullet": 1
+        },
+        "secondary": {
+          "chance": 10,
+          "status": "brn"
+        },
+        "target": "normal",
+        "type": "Fire"
+      }
+    },
+    "オーバードライブ": {
+      "id": "overdrive",
+      "name": "オーバードライブ",
+      "type": "Electric",
+      "category": "special",
+      "base_power": 80,
+      "champions": {
+        "num": 786,
+        "accuracy": 100,
+        "basePower": 80,
+        "category": "Special",
+        "name": "Overdrive",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "sound": 1,
+          "bypasssub": 1
+        },
+        "target": "allAdjacentFoes",
+        "type": "Electric"
+      }
+    },
+    "ソウルクラッシュ": {
+      "id": "spiritbreak",
+      "name": "ソウルクラッシュ",
+      "type": "Fairy",
+      "category": "physical",
+      "base_power": 75,
+      "champions": {
+        "num": 789,
+        "accuracy": 100,
+        "basePower": 75,
+        "category": "Physical",
+        "name": "Spirit Break",
+        "pp": 15,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1
+        },
+        "secondary": {
+          "chance": 100,
+          "boosts": {
+            "spa": -1
+          }
+        },
+        "target": "normal",
+        "type": "Fairy"
+      }
+    },
+    "スターアサルト": {
+      "id": "meteorassault",
+      "name": "スターアサルト",
+      "type": "Fighting",
+      "category": "physical",
+      "base_power": 150,
+      "champions": {
+        "num": 794,
+        "accuracy": 100,
+        "basePower": 170,
+        "category": "Physical",
+        "isNonstandard": null,
+        "name": "Meteor Assault",
+        "pp": 5,
+        "priority": 0,
+        "flags": {
+          "recharge": 1,
+          "protect": 1,
+          "mirror": 1,
+          "failinstruct": 1
+        },
+        "self": {
+          "volatileStatus": "mustrecharge"
+        },
+        "target": "normal",
+        "type": "Fighting",
+        "inherit": true
+      }
+    },
+    "どくばりセンボン": {
+      "id": "barbbarrage",
+      "name": "どくばりセンボン",
+      "type": "Poison",
+      "category": "physical",
+      "base_power": 60,
+      "champions": {
+        "num": 839,
+        "accuracy": 100,
+        "basePower": 60,
+        "category": "Physical",
+        "name": "Barb Barrage",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "secondary": {
+          "chance": 50,
+          "status": "psn"
+        },
+        "target": "normal",
+        "type": "Poison"
+      }
+    },
+    "きょけんとつげき": {
+      "id": "glaiverush",
+      "name": "きょけんとつげき",
+      "type": "Dragon",
+      "category": "physical",
+      "base_power": 120,
+      "champions": {
+        "num": 862,
+        "accuracy": 100,
+        "basePower": 120,
+        "category": "Physical",
+        "name": "Glaive Rush",
+        "pp": 5,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "self": {
+          "volatileStatus": "glaiverush"
+        },
+        "condition": {
+          "noCopy": true,
+          "onBeforeMovePriority": 100
+        },
+        "target": "normal",
+        "type": "Dragon"
+      }
+    },
+    "さいきのいのり": {
+      "id": "revivalblessing",
+      "name": "さいきのいのり",
+      "type": "Normal",
+      "category": "status",
+      "base_power": 0,
+      "champions": {
+        "num": 863,
+        "accuracy": true,
+        "basePower": 0,
+        "category": "Status",
+        "name": "Revival Blessing",
+        "pp": 1,
+        "noPPBoosts": true,
+        "priority": 0,
+        "flags": {
+          "heal": 1,
+          "nosketch": 1
+        },
+        "slotCondition": "revivalblessing",
+        "selfSwitch": true,
+        "condition": {
+          "duration": 1
+        },
+        "target": "self",
+        "type": "Normal"
+      }
+    },
+    "ゴールドラッシュ": {
+      "id": "makeitrain",
+      "name": "ゴールドラッシュ",
+      "type": "Steel",
+      "category": "special",
+      "base_power": 120,
+      "champions": {
+        "num": 874,
+        "accuracy": 95,
+        "basePower": 120,
+        "category": "Special",
+        "name": "Make It Rain",
+        "pp": 5,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1
+        },
+        "self": {
+          "boosts": {
+            "spa": -2
+          }
+        },
+        "target": "allAdjacentFoes",
+        "type": "Steel",
+        "contestType": "Beautiful",
+        "inherit": true
+      }
+    },
+    "ふんどのこぶし": {
+      "id": "ragefist",
+      "name": "ふんどのこぶし",
+      "type": "Ghost",
+      "category": "physical",
+      "base_power": 50,
+      "champions": {
+        "num": 889,
+        "accuracy": 100,
+        "basePower": 50,
+        "category": "Physical",
+        "name": "Rage Fist",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "punch": 1
+        },
+        "target": "normal",
+        "type": "Ghost",
+        "inherit": true
+      }
+    },
+    "でんこうそうげき": {
+      "id": "doubleshock",
+      "name": "でんこうそうげき",
+      "type": "Electric",
+      "category": "physical",
+      "base_power": 120,
+      "champions": {
+        "num": 892,
+        "accuracy": 100,
+        "basePower": 120,
+        "category": "Physical",
+        "name": "Double Shock",
+        "pp": 5,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "punch": 1
+        },
+        "self": {},
+        "target": "normal",
+        "type": "Electric",
+        "contestType": "Clever",
+        "inherit": true
+      }
+    },
+    "ほうふく": {
+      "id": "comeuppance",
+      "name": "ほうふく",
+      "type": "Dark",
+      "category": "physical",
+      "base_power": 1,
+      "champions": {
+        "num": 894,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Comeuppance",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "failmefirst": 1
+        },
+        "target": "scripted",
+        "type": "Dark",
+        "contestType": "Cool"
+      }
+    },
+    "アクアカッター": {
+      "id": "aquacutter",
+      "name": "アクアカッター",
+      "type": "Water",
+      "category": "physical",
+      "base_power": 70,
+      "champions": {
+        "num": 895,
+        "accuracy": 100,
+        "basePower": 70,
+        "category": "Physical",
+        "name": "Aqua Cutter",
+        "pp": 20,
+        "priority": 0,
+        "flags": {
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1,
+          "slicing": 1
+        },
+        "critRatio": 2,
+        "target": "normal",
+        "type": "Water",
+        "contestType": "Cool"
+      }
+    },
+    "ハードプレス": {
+      "id": "hardpress",
+      "name": "ハードプレス",
+      "type": "Steel",
+      "category": "physical",
+      "base_power": 0,
+      "champions": {
+        "num": 912,
+        "accuracy": 100,
+        "basePower": 0,
+        "category": "Physical",
+        "name": "Hard Press",
+        "pp": 10,
+        "priority": 0,
+        "flags": {
+          "contact": 1,
+          "protect": 1,
+          "mirror": 1,
+          "metronome": 1
+        },
+        "target": "normal",
+        "type": "Steel"
+      }
+    }
+  }
+}

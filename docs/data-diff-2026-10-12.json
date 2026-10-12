@@ -1,0 +1,725 @@
+{
+  "pokemon_added": [
+    {
+      "name": "プクリン",
+      "showdown_id": "wigglytuff",
+      "pokeapi_id": "40",
+      "is_mega": false
+    },
+    {
+      "name": "ペルシアン",
+      "showdown_id": "persian",
+      "pokeapi_id": "53",
+      "is_mega": false
+    },
+    {
+      "name": "ペルシアン (アローラのすがた)",
+      "showdown_id": "persianalola",
+      "pokeapi_id": "10108",
+      "is_mega": false
+    },
+    {
+      "name": "カモネギ",
+      "showdown_id": "farfetchd",
+      "pokeapi_id": "83",
+      "is_mega": false
+    },
+    {
+      "name": "バリヤード",
+      "showdown_id": "mrmime",
+      "pokeapi_id": "122",
+      "is_mega": false
+    },
+    {
+      "name": "マルノーム",
+      "showdown_id": "swalot",
+      "pokeapi_id": "317",
+      "is_mega": false
+    },
+    {
+      "name": "ポワルン (たいようのすがた)",
+      "showdown_id": "castformsunny",
+      "pokeapi_id": "10013",
+      "is_mega": false
+    },
+    {
+      "name": "ポワルン (あまみずのすがた)",
+      "showdown_id": "castformrainy",
+      "pokeapi_id": "10014",
+      "is_mega": false
+    },
+    {
+      "name": "ポワルン (ゆきぐものすがた)",
+      "showdown_id": "castformsnowy",
+      "pokeapi_id": "10015",
+      "is_mega": false
+    },
+    {
+      "name": "メガアブソルZ",
+      "showdown_id": "absolmegaz",
+      "pokeapi_id": "10307",
+      "is_mega": true
+    },
+    {
+      "name": "ボーマンダ",
+      "showdown_id": "salamence",
+      "pokeapi_id": "373",
+      "is_mega": false
+    },
+    {
+      "name": "メガボーマンダ",
+      "showdown_id": "salamencemega",
+      "pokeapi_id": "10089",
+      "is_mega": true
+    },
+    {
+      "name": "メガガブリアスZ",
+      "showdown_id": "garchompmegaz",
+      "pokeapi_id": "10309",
+      "is_mega": true
+    },
+    {
+      "name": "メガルカリオZ",
+      "showdown_id": "lucariomegaz",
+      "pokeapi_id": "10310",
+      "is_mega": true
+    },
+    {
+      "name": "ゴーゴート",
+      "showdown_id": "gogoat",
+      "pokeapi_id": "673",
+      "is_mega": false
+    },
+    {
+      "name": "グソクムシャ",
+      "showdown_id": "golisopod",
+      "pokeapi_id": "768",
+      "is_mega": false
+    },
+    {
+      "name": "メガグソクムシャ",
+      "showdown_id": "golisopodmega",
+      "pokeapi_id": "10316",
+      "is_mega": true
+    },
+    {
+      "name": "ゴリランダー",
+      "showdown_id": "rillaboom",
+      "pokeapi_id": "812",
+      "is_mega": false
+    },
+    {
+      "name": "エースバーン",
+      "showdown_id": "cinderace",
+      "pokeapi_id": "815",
+      "is_mega": false
+    },
+    {
+      "name": "インテレオン",
+      "showdown_id": "inteleon",
+      "pokeapi_id": "818",
+      "is_mega": false
+    },
+    {
+      "name": "フォクスライ",
+      "showdown_id": "thievul",
+      "pokeapi_id": "828",
+      "is_mega": false
+    },
+    {
+      "name": "ストリンダー (ハイなすがた)",
+      "showdown_id": "toxtricity",
+      "pokeapi_id": "849",
+      "is_mega": false
+    },
+    {
+      "name": "ストリンダー (ローなすがた)",
+      "showdown_id": "toxtricitylowkey",
+      "pokeapi_id": "10184",
+      "is_mega": false
+    },
+    {
+      "name": "オトスパス",
+      "showdown_id": "grapploct",
+      "pokeapi_id": "853",
+      "is_mega": false
+    },
+    {
+      "name": "ニャイキング",
+      "showdown_id": "perrserker",
+      "pokeapi_id": "863",
+      "is_mega": false
+    },
+    {
+      "name": "ネギガナイト",
+      "showdown_id": "sirfetchd",
+      "pokeapi_id": "865",
+      "is_mega": false
+    },
+    {
+      "name": "バチンウニ",
+      "showdown_id": "pincurchin",
+      "pokeapi_id": "871",
+      "is_mega": false
+    },
+    {
+      "name": "イエッサン (オスのすがた)",
+      "showdown_id": "indeedee",
+      "pokeapi_id": "876",
+      "is_mega": false
+    },
+    {
+      "name": "イエッサン (メスのすがた)",
+      "showdown_id": "indeedeef",
+      "pokeapi_id": "10186",
+      "is_mega": false
+    },
+    {
+      "name": "パーモット",
+      "showdown_id": "pawmot",
+      "pokeapi_id": "923",
+      "is_mega": false
+    },
+    {
+      "name": "オリーヴァ",
+      "showdown_id": "arboliva",
+      "pokeapi_id": "930",
+      "is_mega": false
+    },
+    {
+      "name": "イキリンコ (グリーンフェザー)",
+      "showdown_id": "squawkabilly",
+      "pokeapi_id": "931",
+      "is_mega": false
+    },
+    {
+      "name": "イキリンコ (ブルーフェザー)",
+      "showdown_id": "squawkabillyblue",
+      "pokeapi_id": "10260",
+      "is_mega": false
+    },
+    {
+      "name": "イキリンコ (イエローフェザー)",
+      "showdown_id": "squawkabillyyellow",
+      "pokeapi_id": "10261",
+      "is_mega": false
+    },
+    {
+      "name": "イキリンコ (ホワイトフェザー)",
+      "showdown_id": "squawkabillywhite",
+      "pokeapi_id": "10262",
+      "is_mega": false
+    },
+    {
+      "name": "マフィティフ",
+      "showdown_id": "mabosstiff",
+      "pokeapi_id": "943",
+      "is_mega": false
+    },
+    {
+      "name": "セグレイブ",
+      "showdown_id": "baxcalibur",
+      "pokeapi_id": "998",
+      "is_mega": false
+    },
+    {
+      "name": "メガセグレイブ",
+      "showdown_id": "baxcaliburmega",
+      "pokeapi_id": "10325",
+      "is_mega": true
+    }
+  ],
+  "abilities_updated": [
+    {
+      "name": "メガライチュウX",
+      "before": "未掲載",
+      "after": "エレキメイカー",
+      "showdown_id": "raichumegax",
+      "pokeapi_id": "10304"
+    },
+    {
+      "name": "メガライチュウY",
+      "before": "未掲載",
+      "after": "ノーガード",
+      "showdown_id": "raichumegay",
+      "pokeapi_id": "10305"
+    },
+    {
+      "name": "メガムクホーク",
+      "before": "未掲載",
+      "after": "あまのじゃく",
+      "showdown_id": "staraptormega",
+      "pokeapi_id": "10308"
+    },
+    {
+      "name": "メガペンドラー",
+      "before": "未掲載",
+      "after": "シェルアーマー",
+      "showdown_id": "scolipedemega",
+      "pokeapi_id": "10288"
+    },
+    {
+      "name": "メガズルズキン",
+      "before": "未掲載",
+      "after": "いかく",
+      "showdown_id": "scraftymega",
+      "pokeapi_id": "10289"
+    },
+    {
+      "name": "メガカラマネロ",
+      "before": "未掲載",
+      "after": "あまのじゃく",
+      "showdown_id": "malamarmega",
+      "pokeapi_id": "10297"
+    },
+    {
+      "name": "メガガメノデス",
+      "before": "未掲載",
+      "after": "かたいツメ",
+      "showdown_id": "barbaraclemega",
+      "pokeapi_id": "10298"
+    },
+    {
+      "name": "メガドラミドロ",
+      "before": "未掲載",
+      "after": "さいせいりょく",
+      "showdown_id": "dragalgemega",
+      "pokeapi_id": "10299"
+    },
+    {
+      "name": "メガタイレーツ",
+      "before": "未掲載",
+      "after": "まけんき",
+      "showdown_id": "falinksmega",
+      "pokeapi_id": "10303"
+    }
+  ],
+  "moves_added": [
+    {
+      "name": "ハサミギロチン",
+      "showdown_id": "guillotine",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "つのドリル",
+      "showdown_id": "horndrill",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "けたぐり",
+      "showdown_id": "lowkick",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "カウンター",
+      "showdown_id": "counter",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "ちきゅうなげ",
+      "showdown_id": "seismictoss",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "じわれ",
+      "showdown_id": "fissure",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "ナイトヘッド",
+      "showdown_id": "nightshade",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "いかりのまえば",
+      "showdown_id": "superfang",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "きりさく",
+      "showdown_id": "slash",
+      "power_status": "source_difference",
+      "applied_power": null,
+      "showdown_power": 80,
+      "pokeapi_power": 70
+    },
+    {
+      "name": "じたばた",
+      "showdown_id": "flail",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "きしかいせい",
+      "showdown_id": "reversal",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "ミルクのみ",
+      "showdown_id": "milkdrink",
+      "power_status": "not_applicable",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "ミラーコート",
+      "showdown_id": "mirrorcoat",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "ふくろだたき",
+      "showdown_id": "beatup",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "はきだす",
+      "showdown_id": "spitup",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "がむしゃら",
+      "showdown_id": "endeavor",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "ぜったいれいど",
+      "showdown_id": "sheercold",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "ジャイロボール",
+      "showdown_id": "gyroball",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "メタルバースト",
+      "showdown_id": "metalburst",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "なげつける",
+      "showdown_id": "fling",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "つじぎり",
+      "showdown_id": "nightslash",
+      "power_status": "secondary_agreement",
+      "applied_power": 70,
+      "showdown_power": 70,
+      "pokeapi_power": 70
+    },
+    {
+      "name": "くさむすび",
+      "showdown_id": "grassknot",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "ヘビーボンバー",
+      "showdown_id": "heavyslam",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "エレキボール",
+      "showdown_id": "electroball",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "たたりめ",
+      "showdown_id": "hex",
+      "power_status": "secondary_agreement",
+      "applied_power": 65,
+      "showdown_power": 65,
+      "pokeapi_power": 65
+    },
+    {
+      "name": "ギアチェンジ",
+      "showdown_id": "shiftgear",
+      "power_status": "not_applicable",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "いのちがけ",
+      "showdown_id": "finalgambit",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "ヒートスタンプ",
+      "showdown_id": "heatcrash",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "ひっくりかえす",
+      "showdown_id": "topsyturvy",
+      "power_status": "not_applicable",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "びりびりちくちく",
+      "showdown_id": "zingzap",
+      "power_status": "secondary_agreement",
+      "applied_power": 80,
+      "showdown_power": 80,
+      "pokeapi_power": 80
+    },
+    {
+      "name": "ねらいうち",
+      "showdown_id": "snipeshot",
+      "power_status": "source_difference",
+      "applied_power": null,
+      "showdown_power": 85,
+      "pokeapi_power": 80
+    },
+    {
+      "name": "くらいつく",
+      "showdown_id": "jawlock",
+      "power_status": "secondary_agreement",
+      "applied_power": 80,
+      "showdown_power": 80,
+      "pokeapi_power": 80
+    },
+    {
+      "name": "はいすいのじん",
+      "showdown_id": "noretreat",
+      "power_status": "not_applicable",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "たこがため",
+      "showdown_id": "octolock",
+      "power_status": "not_applicable",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "コートチェンジ",
+      "showdown_id": "courtchange",
+      "power_status": "not_applicable",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": null
+    },
+    {
+      "name": "ドラムアタック",
+      "showdown_id": "drumbeating",
+      "power_status": "secondary_agreement",
+      "applied_power": 80,
+      "showdown_power": 80,
+      "pokeapi_power": 80
+    },
+    {
+      "name": "かえんボール",
+      "showdown_id": "pyroball",
+      "power_status": "secondary_agreement",
+      "applied_power": 120,
+      "showdown_power": 120,
+      "pokeapi_power": 120
+    },
+    {
+      "name": "オーバードライブ",
+      "showdown_id": "overdrive",
+      "power_status": "secondary_agreement",
+      "applied_power": 80,
+      "showdown_power": 80,
+      "pokeapi_power": 80
+    },
+    {
+      "name": "ソウルクラッシュ",
+      "showdown_id": "spiritbreak",
+      "power_status": "secondary_agreement",
+      "applied_power": 75,
+      "showdown_power": 75,
+      "pokeapi_power": 75
+    },
+    {
+      "name": "スターアサルト",
+      "showdown_id": "meteorassault",
+      "power_status": "source_difference",
+      "applied_power": null,
+      "showdown_power": 170,
+      "pokeapi_power": 150
+    },
+    {
+      "name": "どくばりセンボン",
+      "showdown_id": "barbbarrage",
+      "power_status": "secondary_agreement",
+      "applied_power": 60,
+      "showdown_power": 60,
+      "pokeapi_power": 60
+    },
+    {
+      "name": "きょけんとつげき",
+      "showdown_id": "glaiverush",
+      "power_status": "secondary_agreement",
+      "applied_power": 120,
+      "showdown_power": 120,
+      "pokeapi_power": 120
+    },
+    {
+      "name": "さいきのいのり",
+      "showdown_id": "revivalblessing",
+      "power_status": "not_applicable",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": 0
+    },
+    {
+      "name": "ゴールドラッシュ",
+      "showdown_id": "makeitrain",
+      "power_status": "secondary_agreement",
+      "applied_power": 120,
+      "showdown_power": 120,
+      "pokeapi_power": 120
+    },
+    {
+      "name": "ふんどのこぶし",
+      "showdown_id": "ragefist",
+      "power_status": "secondary_agreement",
+      "applied_power": 50,
+      "showdown_power": 50,
+      "pokeapi_power": 50
+    },
+    {
+      "name": "でんこうそうげき",
+      "showdown_id": "doubleshock",
+      "power_status": "secondary_agreement",
+      "applied_power": 120,
+      "showdown_power": 120,
+      "pokeapi_power": 120
+    },
+    {
+      "name": "ほうふく",
+      "showdown_id": "comeuppance",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": 1
+    },
+    {
+      "name": "アクアカッター",
+      "showdown_id": "aquacutter",
+      "power_status": "secondary_agreement",
+      "applied_power": 70,
+      "showdown_power": 70,
+      "pokeapi_power": 70
+    },
+    {
+      "name": "ハードプレス",
+      "showdown_id": "hardpress",
+      "power_status": "unverified_special",
+      "applied_power": null,
+      "showdown_power": 0,
+      "pokeapi_power": 0
+    }
+  ],
+  "unconfirmed": [
+    {
+      "kind": "ability_japanese_name",
+      "name": "メガシビルドン",
+      "reference_english_names": [
+        "Eelevate"
+      ]
+    },
+    {
+      "kind": "ability_japanese_name",
+      "name": "メガカエンジシ",
+      "reference_english_names": [
+        "Fire Mane"
+      ]
+    },
+    {
+      "kind": "move_power",
+      "name": "きりさく",
+      "showdown_power": 80,
+      "pokeapi_power": 70
+    },
+    {
+      "kind": "move_power",
+      "name": "ねらいうち",
+      "showdown_power": 85,
+      "pokeapi_power": 80
+    },
+    {
+      "kind": "move_power",
+      "name": "スターアサルト",
+      "showdown_power": 170,
+      "pokeapi_power": 150
+    }
+  ]
+}

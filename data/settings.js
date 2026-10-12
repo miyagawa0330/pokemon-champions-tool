@@ -1,4 +1,4 @@
-// v7のデータをそのまま保管。データ更新時はこのファイルを編集します。
+// 固定の簡易計算条件と、v7原本の過去の出典記載。
 window.PokemonAppData = window.PokemonAppData || {};
 Object.assign(window.PokemonAppData, {
   "settings": {
@@ -12,6 +12,6 @@ Object.assign(window.PokemonAppData, {
     "checked_at": "2026-07-07",
     "pokemon_reference": "ポケモン徹底攻略 チャンピオンズ図鑑",
     "regulation_reference": "GameWith レギュレーションM-Bの追加ポケモン一覧",
-    "note": "M-Bで新規追加された38体を追加。新メガシンカ等でポケ徹一覧に特性が未掲載のものは、特性を未掲載として登録。"
+    "note": "添付v7の過去データの出典記載。最新情報の確認結果は data/review.js を参照。"
   }
 });

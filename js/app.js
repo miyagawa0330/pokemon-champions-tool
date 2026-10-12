@@ -1,7 +1,7 @@
 // 画面の表示と操作。検索・計算は別ファイルの処理を呼びます。
 (function () {
   "use strict";
-  const { kataToHira, normalize, getPokemonByExactName, searchPokemonByName, getMoveByExactName, searchMoveByName, getComboMultiplier, classifyPokemonDefense, classifyValues, calculateActualStat, getStab, getMovePower, calculateDamagePercent } = window.PokemonTool;
+  const { normalize, getPokemonByExactName, searchPokemonByName, getMoveByExactName, searchMoveByName, classifyPokemonDefense, classifyValues, getMovePower, getDamageUnsupportedReason, calculateDamagePercent, getRegulationAvailability, getRecordReview } = window.PokemonTool;
     const DATA = window.PokemonAppData;
     const POKEMON = DATA.pokemon;
     const TYPE_CHART_DEFENSE = DATA.typeChartDefense;
@@ -43,7 +43,18 @@
 
     function populateInputs() {
       document.querySelector('.badge').textContent = `${POKEMON.length}体 / 技${MOVES.length}種`;
-      document.querySelector('.footer-note').textContent = `計算条件: Lv.${SETTINGS.level} / 個体値${SETTINGS.iv}相当 / 参照する能力は能力ポイント${SETTINGS.sp}相当 / 性格補正なし / 道具補正なし。技検索は技名のみで絞り込みます。データ: レギュレーション${DATA.sources.regulation}対応、${DATA.sources.checked_at}確認。`;
+      const review = DATA.review;
+      const rule = review.current_regulation;
+      document.getElementById('dataNotice').innerHTML = `
+        <strong>現レギュレーションと適用期間：未確認</strong>
+        <p>現環境への対応確認は未完了です。表示データはv7の保存データと、二次資料を照合した参考データです。現在使えるポケモンを断定する一覧ではありません。</p>
+        <p class="mini">資料の照合日：${escapeHtml(review.secondary_checked_at)}（日本時間）／v7原本の記載：M-B・2026-07-07。二次資料には${escapeHtml(rule.candidate_id)}の登録がありますが、公式の適用期間は未確認です。</p>
+        <details><summary>確認できたこと・出典を見る</summary>
+          <p>ポケモンの名前・タイプ・種族値、登録した特性名や技の分類をPokémon ShowdownとPokéAPIで照合しています。新しく加えた情報も、現ゲームの公式確認ができたことを意味しません。効果の詳細や現レギュレーションの利用可否には未確認項目があります。</p>
+          <p><a href="https://github.com/smogon/pokemon-showdown/tree/942cda71d14bf0618bd57991708a2e2734b6daba/data/mods/champions" target="_blank" rel="noopener noreferrer">Pokémon Showdown：Championsの資料</a> ／ <a href="https://github.com/PokeAPI/pokeapi/tree/c80757193bd0889054e36f4209762360bdaa4b95/data/v2/csv" target="_blank" rel="noopener noreferrer">PokéAPI：名前・タイプ・種族値など</a></p>
+          <p>公式情報の内容は今回まだ取得できていません。現レギュレーション名、開始・終了日時、対象ポケモンの確定は保留しています。</p>
+        </details>`;
+      document.querySelector('.footer-note').textContent = `簡易計算の目安：Lv.${SETTINGS.level} / 個体値${SETTINGS.iv}相当 / 参照能力の能力ポイント${SETTINGS.sp}相当。性格・特性・道具などの補正なし。資料照合日：${review.secondary_checked_at}。現レギュレーション対応は未確認。`;
       const pokemonList = document.getElementById('pokemonNames');
       const moveList = document.getElementById('moveNames');
       pokemonList.innerHTML = POKEMON.map(p => `<option value="${escapeHtml(p.name)}"></option>`).join('');
@@ -60,6 +71,7 @@
         </div>`).join('');
       return `<div class="type-matchup-block">
         <div class="match-title">このポケモンが受けるタイプ相性</div>
+        <p class="mini">タイプ表のみの相性です。特性・道具による無効や軽減は反映しません。</p>
         ${htmlGroups}
       </div>`;
     }
@@ -72,8 +84,9 @@
           <div class="poke-name">${escapeHtml(pokemon.name)}</div>
           <div class="types">${typeHtml}</div>
         </div>
+        ${renderReviewLabel('pokemon', pokemon.name)}
         <p><strong>特性:</strong> ${escapeHtml(pokemon.abilities_all || '未登録')}</p>
-        <p class="mini">${escapeHtml(pokemon.abilities_description_all || '')}</p>
+        <p class="mini">特性の効果詳細（現ゲームでは未確認）: ${escapeHtml(pokemon.abilities_description_all || '未確認')}</p>
         <table class="stats">
           <tr><th>HP</th><td>${pokemon.hp}</td><th>こうげき</th><td>${pokemon.attack}</td></tr>
           <tr><th>ぼうぎょ</th><td>${pokemon.defense}</td><th>とくこう</th><td>${pokemon.sp_attack}</td></tr>
@@ -82,6 +95,14 @@
         </table>
         ${renderPokemonTypeMatchup(pokemon)}
       </div>`;
+    }
+
+    function renderReviewLabel(kind, name) {
+      const review = getRecordReview(kind, name);
+      const origin = review.origin === 'secondary_reference' ? '二次資料を照合して追加した参考データ' : 'v7保存データ（元ファイルに記載）';
+      const availability = kind === 'pokemon' ? getRegulationAvailability(name) : 'unverified';
+      const label = availability === 'available' ? '利用可能（公式の対象リストで確認）' : availability === 'unavailable' ? '対象外（公式の対象リストで確認）' : '未確認';
+      return `<p class="review-label">${escapeHtml(origin)}<br>現レギュレーションでの利用可否：${escapeHtml(label)}</p>`;
     }
 
     function renderPokemonSearch() {
@@ -125,6 +146,8 @@
       }).join('') + `<tr><th>合計</th><td>${totalA}</td><td>${totalB}</td><td>${totalA===totalB ? '同じ' : totalA > totalB ? `${escapeHtml(a.name)} +${totalA-totalB}` : `${escapeHtml(b.name)} +${totalB-totalA}`}</td></tr>`;
       result.innerHTML = `<div class="result-card success">
         <div class="poke-name">${escapeHtml(a.name)} vs ${escapeHtml(b.name)}</div>
+        ${renderReviewLabel('pokemon', a.name)}
+        ${renderReviewLabel('pokemon', b.name)}
         <table class="stats">
           <tr><th>項目</th><th>${escapeHtml(a.name)}</th><th>${escapeHtml(b.name)}</th><th>比較</th></tr>
           ${body}
@@ -146,7 +169,7 @@
         <div class="match-group"><div class="match-title">${label}</div>
           <div class="chip-list">${groups[label].length ? groups[label].map(v => `<span class="chip">${escapeHtml(v)}</span>`).join('') : '<span class="chip">なし</span>'}</div>
         </div>`).join('');
-      result.innerHTML = `<div class="result-card success"><div class="poke-name">${escapeHtml(title)}</div>${htmlGroups}</div>`;
+      result.innerHTML = `<div class="result-card success"><div class="poke-name">${escapeHtml(title)}</div><p class="mini">タイプ表のみの相性です。特性・道具による無効や軽減は反映しません。</p>${htmlGroups}</div>`;
     }
 
     function renderDamage() {
@@ -158,16 +181,22 @@
         result.innerHTML = renderError('攻撃側、防御側、技を候補から正確に選んでください。');
         return;
       }
+      const unsupported = getDamageUnsupportedReason(attacker, defender, move);
+      if (unsupported) {
+        result.innerHTML = renderError(unsupported);
+        return;
+      }
       const output = calculateDamagePercent(attacker, defender, move);
       if (!output) {
         result.innerHTML = renderError('この技はダメージ計算対象外です。');
         return;
       }
       result.innerHTML = `<div class="result-card success">
+        <p class="review-label">簡易計算の目安です。現ゲームの正確なダメージを保証しません。現レギュレーションでの利用可否は未確認です。</p>
         <div class="mini">${escapeHtml(attacker.name)} → ${escapeHtml(defender.name)} / ${escapeHtml(move.name)}（${escapeHtml(move.type)}・${escapeHtml(CATEGORY_LABEL[move.category] || move.category)}・威力${output.power}）</div>
         <div class="damage-output">${output.min.toFixed(1)}%〜${output.max.toFixed(1)}%</div>
-        <p class="mini">100%以上の確率: ${output.ohkoCount}/${output.rollCount}（${output.ohkoChance.toFixed(1)}%） / タイプ相性: ${output.typeMultiplier}倍</p>
-        <p class="mini">計算条件: Lv.${SETTINGS.level} / 個体値${SETTINGS.iv}相当 / 能力ポイント${SETTINGS.sp}相当 / 性格補正なし / 道具補正なし</p>
+        <p class="mini">この仮定でHP以上になる乱数の割合（目安）: ${output.ohkoCount}/${output.rollCount}（${output.ohkoChance.toFixed(1)}%） / タイプ相性: ${output.typeMultiplier}倍</p>
+        <p class="mini">計算条件: Lv.${SETTINGS.level} / 個体値${SETTINGS.iv}相当 / 能力ポイント${SETTINGS.sp}相当 / 性格・特性・道具・天候などの補正なし</p>
       </div>`;
     }
 
@@ -178,21 +207,24 @@
     }
 
     function renderMoveCard(move) {
-      const ruleText = move.category === 'status' ? 'ダメージ計算対象外' : (move.special_rule ? (SPECIAL_RULE_LABEL[move.special_rule] || move.special_rule) : '通常処理');
+      const review = getRecordReview('moves', move.name);
+      const ruleText = move.category === 'status' ? '変化技のため計算対象外' : review.calculation_support === 'unsupported' ? `${review.unsupported_conditions.join('・')}は未対応。計算対象外です。` : (move.special_rule ? (SPECIAL_RULE_LABEL[move.special_rule] || move.special_rule) : '登録威力のみの簡易計算。特殊効果は反映しません。');
       const calcPower = getMovePower(move);
-      const powerText = calcPower == null ? '—' : (calcPower !== Number(move.power) ? `${move.power}（計算時 ${calcPower}）` : String(move.power));
+      const powerText = move.power == null ? (move.category === 'status' ? '—' : '未確認・通常の威力なし') : (calcPower != null && calcPower !== Number(move.power) ? `${move.power}（計算時 ${calcPower}）` : String(move.power));
       return `<div class="result-card success">
         <div class="name-line">
           <div class="move-name">${escapeHtml(move.name)}</div>
           <div class="types"><span class="type-pill">${escapeHtml(move.type)}</span><span class="type-pill">${escapeHtml(CATEGORY_LABEL[move.category] || move.category)}</span></div>
         </div>
+        ${renderReviewLabel('moves', move.name)}
         <div class="move-meta">
           <div class="meta-box"><span class="meta-label">タイプ</span><span class="meta-value">${escapeHtml(move.type)}</span></div>
           <div class="meta-box"><span class="meta-label">分類</span><span class="meta-value">${escapeHtml(CATEGORY_LABEL[move.category] || move.category)}</span></div>
           <div class="meta-box"><span class="meta-label">威力</span><span class="meta-value">${escapeHtml(powerText)}</span></div>
-          <div class="meta-box"><span class="meta-label">登録</span><span class="meta-value">チャンピオンズ</span></div>
+          <div class="meta-box"><span class="meta-label">現在の利用可否</span><span class="meta-value">未確認</span></div>
         </div>
-        <p class="effect-text"><strong>効果:</strong> ${escapeHtml(getMoveEffect(move))}</p>
+        <p class="effect-text"><strong>効果説明（現行仕様は未確認）:</strong> ${escapeHtml(getMoveEffect(move))}</p>
+        ${review.power === 'source_difference' ? '<p class="review-label">資料の対象ゲーム・威力が異なるため、現在の威力は未確認です。推測せず計算対象外にしています。</p>' : ''}
         <p class="mini"><strong>計算上の備考:</strong> ${escapeHtml(ruleText)}</p>
       </div>`;
     }

@@ -212,3 +212,11 @@
     }
     .footer-note { margin-top: 18px; color: var(--muted); font-size: 12px; text-align: center; }
   
+
+    .data-notice, .calculation-notice { background: #fff8e6; border: 1px solid #ead29c; color: #594515; }
+    .data-notice p { margin: 8px 0; }
+    .data-notice a { color: var(--main-dark); overflow-wrap: anywhere; }
+    .review-label { font-size: 13px; color: #594515; margin: 8px 0; }
+    .calculation-notice { padding: 12px; border-radius: 12px; }
+    .calculation-details { margin: 12px 0 18px; font-size: 13px; }
+    summary { cursor: pointer; font-weight: 700; }

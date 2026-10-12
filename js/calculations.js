@@ -1,9 +1,11 @@
-// 画面を使わずに検証できる、v7と同じ検索・計算処理。
+// タイプ相性と簡易ダメージ計算。確認できない入力と未対応条件は計算対象外。
 (function () {
   "use strict";
   const DATA = window.PokemonAppData;
   const TYPE_CHART_DEFENSE = DATA.typeChartDefense, ALL_TYPES = DATA.allTypes, SETTINGS = DATA.settings;
     function getComboMultiplier(attackType, defenseType1, defenseType2='') {
+      if (!ALL_TYPES.includes(attackType) || !ALL_TYPES.includes(defenseType1) ||
+          (defenseType2 && !ALL_TYPES.includes(defenseType2))) return null;
       const m1 = (TYPE_CHART_DEFENSE[defenseType1] && TYPE_CHART_DEFENSE[defenseType1][attackType] !== undefined)
         ? TYPE_CHART_DEFENSE[defenseType1][attackType] : 1.0;
       const m2 = defenseType2 && TYPE_CHART_DEFENSE[defenseType2] && TYPE_CHART_DEFENSE[defenseType2][attackType] !== undefined
@@ -40,6 +42,7 @@
     }
 
     function calculateActualStat(base, isHp=false) {
+      if (!Number.isFinite(base) || base <= 0) return null;
       const level = SETTINGS.level, iv = SETTINGS.iv, sp = SETTINGS.sp;
       if (isHp) return Math.floor(((2 * base + iv + (sp * 2)) * level) / 100) + level + 10;
       return Math.floor(((2 * base + iv + (sp * 2)) * level) / 100) + 5;
@@ -47,17 +50,43 @@
 
     function getStab(attacker, moveType) {
       if (attacker.type1 !== moveType && attacker.type2 !== moveType) return 1.0;
-      const abilities = `${attacker.abilities_all || ''} ${attacker.ability1 || ''} ${attacker.ability2 || ''} ${attacker.hidden_ability || ''}`;
-      return abilities.includes('てきおうりょく') ? 2.0 : 1.5;
+      // 実際に使う特性を選べないため、すべての特性補正を一貫して除外する。
+      return 1.5;
     }
 
     function getMovePower(move) {
       if (!move || move.category === 'status' || move.power === null || move.power === undefined || move.power === '') return null;
+      if (DATA.review?.moves[move.name]?.calculation_support === 'unsupported') return null;
+      if (!Number.isFinite(Number(move.power)) || Number(move.power) <= 0) return null;
       if (move.special_rule === 'acrobatics') return Number(move.power) * 2;
       return Number(move.power);
     }
 
+    function getDamageUnsupportedReason(attacker, defender, move) {
+      if (!move) return '技を選んでください。';
+      if (move.category === 'status') return '変化技はダメージ計算対象外です。';
+      const review = DATA.review?.moves[move.name];
+      if (review?.calculation_support === 'unsupported') {
+        return `${review.unsupported_conditions.join('・')}は未対応のため、この技は計算対象外です。`;
+      }
+      if (getMovePower(move) == null) return '威力が未確認、または通常の威力を使わない技のため計算対象外です。';
+      if (!['physical', 'special'].includes(move.category)) return '技の分類が未確認のため計算できません。';
+      if (!attacker || !defender || getComboMultiplier(move.type, defender.type1, defender.type2) == null ||
+          !ALL_TYPES.includes(attacker.type1) || (attacker.type2 && !ALL_TYPES.includes(attacker.type2))) {
+        return 'タイプが未確認のため計算できません。';
+      }
+      const attackerKey = move.special_rule === 'defense_attack' ? 'defense' : move.category === 'physical' ? 'attack' : 'sp_attack';
+      const defenderKey = move.special_rule === 'physical_defense' || move.category === 'physical' ? 'defense' : 'sp_defense';
+      const attackBase = move.special_rule === 'target_attack' ? defender.attack : attacker[attackerKey];
+      if (![attackBase, defender[defenderKey], defender.hp].every(value => Number.isFinite(value) && value > 0)) {
+        return '計算に必要な種族値が未確認のため計算できません。';
+      }
+      return null;
+    }
+
     function calculateDamagePercent(attacker, defender, move) {
+      // 対象外の技を先に除外し、無効タイプでも変化技の0%結果を出さない。
+      if (getDamageUnsupportedReason(attacker, defender, move)) return null;
       const typeMultiplier = getComboMultiplier(move.type, defender.type1, defender.type2);
       const defenderHp = calculateActualStat(Number(defender.hp), true);
       if (typeMultiplier === 0) {
@@ -108,5 +137,5 @@
 
 
   window.PokemonTool = window.PokemonTool || {};
-  Object.assign(window.PokemonTool, { getComboMultiplier, classifyPokemonDefense, classifyValues, calculateActualStat, getStab, getMovePower, calculateDamagePercent });
+  Object.assign(window.PokemonTool, { getComboMultiplier, classifyPokemonDefense, classifyValues, calculateActualStat, getStab, getMovePower, getDamageUnsupportedReason, calculateDamagePercent });
 })();

@@ -1,4 +1,4 @@
-// v7のデータをそのまま保管。データ更新時はこのファイルを編集します。
+// v7保存データと二次資料で照合した参考技。確認できない威力はnull。
 window.PokemonAppData = window.PokemonAppData || {};
 Object.assign(window.PokemonAppData, {
   "moves": [
@@ -3913,6 +3913,398 @@ Object.assign(window.PokemonAppData, {
       "accuracy": null,
       "pp": null,
       "effect": "変化技。詳細効果はゲーム内またはポケモンチャンピオンズの最新技一覧で確認してください。"
+    },
+    {
+      "name": "ハサミギロチン",
+      "type": "ノーマル",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "つのドリル",
+      "type": "ノーマル",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "けたぐり",
+      "type": "かくとう",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "カウンター",
+      "type": "かくとう",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ちきゅうなげ",
+      "type": "かくとう",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "じわれ",
+      "type": "じめん",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ナイトヘッド",
+      "type": "ゴースト",
+      "category": "special",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "いかりのまえば",
+      "type": "ノーマル",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "きりさく",
+      "type": "ノーマル",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "じたばた",
+      "type": "ノーマル",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "きしかいせい",
+      "type": "かくとう",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ミルクのみ",
+      "type": "ノーマル",
+      "category": "status",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ミラーコート",
+      "type": "エスパー",
+      "category": "special",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ふくろだたき",
+      "type": "あく",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "はきだす",
+      "type": "ノーマル",
+      "category": "special",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "がむしゃら",
+      "type": "ノーマル",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ぜったいれいど",
+      "type": "こおり",
+      "category": "special",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ジャイロボール",
+      "type": "はがね",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "メタルバースト",
+      "type": "はがね",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "なげつける",
+      "type": "あく",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "つじぎり",
+      "type": "あく",
+      "category": "physical",
+      "power": 70,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "くさむすび",
+      "type": "くさ",
+      "category": "special",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ヘビーボンバー",
+      "type": "はがね",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "エレキボール",
+      "type": "でんき",
+      "category": "special",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "たたりめ",
+      "type": "ゴースト",
+      "category": "special",
+      "power": 65,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ギアチェンジ",
+      "type": "はがね",
+      "category": "status",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "いのちがけ",
+      "type": "かくとう",
+      "category": "special",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ヒートスタンプ",
+      "type": "ほのお",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ひっくりかえす",
+      "type": "あく",
+      "category": "status",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "びりびりちくちく",
+      "type": "でんき",
+      "category": "physical",
+      "power": 80,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ねらいうち",
+      "type": "みず",
+      "category": "special",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "くらいつく",
+      "type": "あく",
+      "category": "physical",
+      "power": 80,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "はいすいのじん",
+      "type": "かくとう",
+      "category": "status",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "たこがため",
+      "type": "かくとう",
+      "category": "status",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "コートチェンジ",
+      "type": "ノーマル",
+      "category": "status",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ドラムアタック",
+      "type": "くさ",
+      "category": "physical",
+      "power": 80,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "かえんボール",
+      "type": "ほのお",
+      "category": "physical",
+      "power": 120,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "オーバードライブ",
+      "type": "でんき",
+      "category": "special",
+      "power": 80,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ソウルクラッシュ",
+      "type": "フェアリー",
+      "category": "physical",
+      "power": 75,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "スターアサルト",
+      "type": "かくとう",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "どくばりセンボン",
+      "type": "どく",
+      "category": "physical",
+      "power": 60,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "きょけんとつげき",
+      "type": "ドラゴン",
+      "category": "physical",
+      "power": 120,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "さいきのいのり",
+      "type": "ノーマル",
+      "category": "status",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ゴールドラッシュ",
+      "type": "はがね",
+      "category": "special",
+      "power": 120,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ふんどのこぶし",
+      "type": "ゴースト",
+      "category": "physical",
+      "power": 50,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "でんこうそうげき",
+      "type": "でんき",
+      "category": "physical",
+      "power": 120,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ほうふく",
+      "type": "あく",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "アクアカッター",
+      "type": "みず",
+      "category": "physical",
+      "power": 70,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
+    },
+    {
+      "name": "ハードプレス",
+      "type": "はがね",
+      "category": "physical",
+      "power": null,
+      "aliases": [],
+      "effect": "効果詳細：未確認。"
     }
   ],
   "moveAliases": {
