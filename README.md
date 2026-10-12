@@ -5,7 +5,7 @@
 ## Macで開く（追加ソフト不要）
 
 1. GitHubの `v7-foundation` ブランチで「Code」→「Download ZIP」を選び、Macの「ダウンロード」フォルダでZIPをダブルクリックします。
-2. 展開されたフォルダ（GitHubから取得した場合は `pokemon-champions-tool-v7-foundation`）を開きます。
+2. 展開されたフォルダ（GitHubから取得した場合は `pokemon-champions-tool-7-foundation`）を開きます。
 3. その中の `index.html` を右クリックして「このアプリケーションで開く」→「Safari」または「Google Chrome」を選びます。
 4. 上の5つのボタンから機能を選べます。
 
